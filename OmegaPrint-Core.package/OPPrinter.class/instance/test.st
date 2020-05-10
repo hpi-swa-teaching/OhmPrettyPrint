@@ -1,3 +1,3 @@
 as yet unclassified
 test
-	^ 'test'
+	^ 'other test'
