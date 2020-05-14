@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"print:withIndent:" : "fau 5/10/2020 21:25",
-		"printCST:" : "fau 5/10/2020 21:33" },
+		"print:withIndent:" : "PK 5/14/2020 19:25",
+		"printCST:" : "PK 5/14/2020 19:12",
+		"printNewCST:" : "PK 5/14/2020 19:23" },
 	"instance" : {
 		"test" : "TA 5/10/2020 18:30" } }

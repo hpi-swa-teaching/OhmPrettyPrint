@@ -1,8 +1,8 @@
 as yet unclassified
 printCST: aString
 	| smalltalk match |
-	smalltalk := OhmGrammar new: OhmSmalltalk serializedGrammar.
-	smalltalk defaultStartRuleName: #Expression.
+	smalltalk := OhmGrammar new: OhmExplicitSendsSmalltalk serializedGrammar.
+	smalltalk defaultStartRuleName: #MethodDeclaration.
 
 	match := smalltalk match: aString.
 	match failed
