@@ -1,5 +1,5 @@
 OrderedDictionary {
-	'BaselineOfOhmPrettyPrint.package' : #SquotCypressCodeSerializer,
-	'OmegaPrint-Core.package' : #SquotCypressCodeSerializer,
-	'OhmPrettyPrint.package' : #SquotCypressCodeSerializer
+	'packages\/BaselineOfOhmPrettyPrint.package' : #SquotCypressCodeSerializer,
+	'packages\/OmegaPrint-Core.package' : #SquotCypressCodeSerializer,
+	'packages\/OhmPrettyPrint.package' : #SquotCypressCodeSerializer
 }
