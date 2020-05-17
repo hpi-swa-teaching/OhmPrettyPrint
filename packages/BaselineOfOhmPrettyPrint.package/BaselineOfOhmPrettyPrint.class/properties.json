@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfOhmPrettyPrint",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfOhmPrettyPrint",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
