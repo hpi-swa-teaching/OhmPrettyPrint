@@ -7,11 +7,14 @@ on: [push, pull_request]
 
 jobs:
   build:
+    runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        smalltalk: [ Squeak64-trunk, Squeak64-5.3 ]
-    name: ${{ matrix.smalltalk }}
-    runs-on: [ubuntu-latest, windows-latest, macos-latest]
+        # Select platform(s)
+        os: [ ubuntu-latest, macos-latest ]
+        # Select compatible Smalltalk image(s)
+        smalltalk: [ Squeak64-trunk, Squeak64-5.3, Squeak64-5.2 ]
+    name: ${{ matrix.smalltalk }} on ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v2
       - uses: hpi-swa/setup-smalltalkCI@v1
