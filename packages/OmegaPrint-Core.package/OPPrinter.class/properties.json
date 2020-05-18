@@ -10,5 +10,5 @@
 	"name" : "OPPrinter",
 	"pools" : [
 		 ],
-	"super" : "OhmSmalltalkSourceRewriter",
+	"super" : "OhmSourceRewriter",
 	"type" : "normal" }

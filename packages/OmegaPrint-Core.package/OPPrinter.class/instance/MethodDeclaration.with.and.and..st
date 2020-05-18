@@ -1,4 +1,4 @@
-as yet unclassified
+actions
 MethodDeclaration: aNode with: header and: pragmas and: code
 
 	| comment |
