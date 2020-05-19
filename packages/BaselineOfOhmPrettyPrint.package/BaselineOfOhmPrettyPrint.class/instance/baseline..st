@@ -6,7 +6,7 @@ baseline: spec
 				spec
 					repository: 'github://hpi-swa/ohm-s:master/packages'].
 		spec 
-			package: 'OmegaPrint-Core';
+			package: 'OmegaPrint-Core' with: [spec requires: #('Ohm')];
 			package: 'OmegaPrint-Tests' with: [ spec requires: #('default') ];
 			group: 'default' with: #('OmegaPrint-Core');
 			group: 'tests' with: #('OmegaPrint-Tests')
