@@ -2,7 +2,8 @@ actions
 MethodDeclaration: aNode with: header and: pragmas and: code
 
 	| comment |
-	comment := aNode interval stream contents copyFrom: header interval end + 1 to: code interval start - 1.
+	comment := self commentBetween: header and: code.
+	comment isEmpty ifFalse: [comment := String tab , comment].
 	
-	^ (self defaultExpression: header) , String cr , comment withBlanksTrimmed , String cr ,
+	^ (self defaultExpression: header) , String cr , comment , String cr , String tab ,
 		(self defaultExpression: code)
