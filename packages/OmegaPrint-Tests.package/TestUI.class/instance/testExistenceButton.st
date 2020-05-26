@@ -1,5 +1,6 @@
 button browser
 testExistenceButton
+
 	| exists |
 	exists := CodeHolder new contentsSymbolQuints
 				anySatisfy: [:each | (each isKindOf: Collection)
