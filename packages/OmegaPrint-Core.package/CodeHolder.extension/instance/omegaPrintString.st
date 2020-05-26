@@ -1,8 +1,6 @@
 *OmegaPrint-Core
 omegaPrintString
-	"Answer whether the receiver is showing omega-print"
+	"returns a string wether omegaPrint is displayed"
 	^ ((contentsSymbol == #omegaPrint)
-		ifTrue:
-			['<yes>']
-		ifFalse:
-			['<no>']), 'omegaPrint'
+			ifTrue: ['<yes>']
+			ifFalse: ['<no>']) , 'omegaPrint'

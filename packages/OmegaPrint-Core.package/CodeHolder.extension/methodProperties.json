@@ -2,6 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"omegaPrintString" : "TA 5/26/2020 10:23",
-		"showingOmegaPrint" : "TA 5/26/2020 10:23",
-		"toggleOmegaPrint" : "TA 5/26/2020 10:23" } }
+		"isShowingOmegaPrint" : "TA 5/26/2020 13:00",
+		"omegaPrintString" : "TA 5/26/2020 13:00",
+		"toggleOmegaPrint" : "TA 5/26/2020 11:55" } }
