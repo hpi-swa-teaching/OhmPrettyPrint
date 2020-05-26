@@ -2,6 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testWhitespaceOne" : "PS 5/25/2020 20:29",
-		"testWhitespaceTwo" : "PS 5/25/2020 20:28",
-		"testWhitespaceZero" : "PS 5/25/2020 20:28" } }
+		"testWhitespaceMultipleVariables" : "fau 5/26/2020 10:05",
+		"testWhitespaceNoVariables" : "fau 5/26/2020 10:07",
+		"testWhitespaceSingleVariable" : "fau 5/26/2020 10:05" } }

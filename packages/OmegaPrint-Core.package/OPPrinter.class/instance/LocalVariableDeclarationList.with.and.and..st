@@ -4,8 +4,3 @@ LocalVariableDeclarationList: aNode with: aTerminal and: bindableIdentifiers and
 	bindableIdentifiers children isEmpty
 		ifTrue: [ ^ '| |' ]
 		ifFalse: [ ^ '| ' , (self value: bindableIdentifiers) , ' |' ]
-
-	
-
-	
-

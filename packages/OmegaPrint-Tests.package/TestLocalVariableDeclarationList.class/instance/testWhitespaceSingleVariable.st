@@ -1,5 +1,5 @@
-as yet unclassified
-testWhitespaceOne
+whitespace
+testWhitespaceSingleVariable
 
 	| matchResult evaluator |
 	matchResult := OhmExplicitSendsSmalltalk match: '|variable1|' startingFrom: #LocalVariableDeclarationList.
