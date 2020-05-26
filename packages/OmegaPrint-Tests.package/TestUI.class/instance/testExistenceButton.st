@@ -1,8 +1,7 @@
 button browser
 testExistenceButton
-	
 	| exists |
-	exists := (CodeHolder new contentsSymbolQuints)
-		anySatisfy: [:e | (e isKindOf: Collection) and: [e first = #omegaPrint]].
+	exists := CodeHolder new contentsSymbolQuints
+				anySatisfy: [:each | (each isKindOf: Collection)
+						and: [each first = #omegaPrint]].
 	self assert: exists
-	
