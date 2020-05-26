@@ -5,6 +5,12 @@
 	"instance" : {
 		"FinalStatement:with:and:and:" : "fau 5/25/2020 21:12",
 		"LocalVariableDeclarationList:with:and:and:" : "fau 5/26/2020 10:10",
-		"MethodDeclaration:with:and:and:" : "fau 5/21/2020 20:55",
-		"Statements:withManyStatements:withLiterals:" : "fau 5/21/2020 20:41",
-		"commentBetween:and:" : "fau 5/21/2020 20:54" } }
+		"MethodDeclaration:with:and:and:" : "fau 5/26/2020 09:55",
+		"Statements:withManyStatements:withLiterals:" : "fau 5/26/2020 09:56",
+		"commentBetween:and:" : "fau 5/26/2020 09:50",
+		"decreaseIndentation" : "fau 5/26/2020 09:46",
+		"increaseIndentation" : "fau 5/26/2020 09:46",
+		"indentation" : "fau 5/26/2020 10:39",
+		"indentation:" : "fau 5/26/2020 10:39",
+		"initialize" : "fau 5/26/2020 10:37",
+		"newline" : "fau 5/26/2020 09:47" } }

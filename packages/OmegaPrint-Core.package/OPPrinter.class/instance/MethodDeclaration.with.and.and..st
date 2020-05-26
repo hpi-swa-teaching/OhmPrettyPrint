@@ -1,9 +1,9 @@
 actions
-MethodDeclaration: aNode with: header and: pragmas and: code
+MethodDeclaration: aNode with: aMethodHeader and: x and: executableCode
 
-	| comment |
-	comment := self commentBetween: header and: code.
-	comment isEmpty ifFalse: [comment := String tab , comment].
+	| comment header |
+	header := self defaultExpression: aMethodHeader.
+	self increaseIndentation.
+	comment := self commentBetween: aMethodHeader and: executableCode.
 	
-	^ (self defaultExpression: header) , String cr , comment , String cr , String tab ,
-		(self defaultExpression: code)
+	^ header , comment , self newline , (self defaultExpression: executableCode)
