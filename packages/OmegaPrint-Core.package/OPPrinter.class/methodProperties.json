@@ -1,6 +1,7 @@
 {
 	"class" : {
-		 },
+		"initialize" : "TA 5/26/2020 10:06",
+		"omegaPrintQuint" : "TA 5/26/2020 10:06" },
 	"instance" : {
 		"FinalStatement:with:and:and:" : "fau 5/25/2020 21:12",
 		"LocalVariableDeclarationList:with:and:and:" : "fau 5/26/2020 10:10",
