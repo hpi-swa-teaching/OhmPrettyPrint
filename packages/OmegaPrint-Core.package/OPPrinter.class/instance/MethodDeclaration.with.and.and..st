@@ -1,5 +1,5 @@
 actions
-MethodDeclaration: aNode with: aMethodHeader and: x and: executableCode
+MethodDeclaration: aNode with: aMethodHeader and: pragmas and: executableCode
 
 	| comment header |
 	header := self defaultExpression: aMethodHeader.
