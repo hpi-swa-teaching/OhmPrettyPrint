@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testWithMultipleSegments" : "fau 5/31/2020 19:32",
+		"testWithOneSegment" : "fau 5/31/2020 19:25",
+		"testWithoutSegments" : "fau 5/31/2020 19:25" } }

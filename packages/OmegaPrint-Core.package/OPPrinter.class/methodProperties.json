@@ -2,11 +2,17 @@
 	"class" : {
 		 },
 	"instance" : {
+		"BinaryMessage:with:and:" : "fau 5/31/2020 18:37",
+		"BinaryMessageSend:with:and:" : "fau 5/31/2020 18:35",
 		"ExecutableCode:with:and:and:" : "PS 6/1/2020 18:14",
 		"FinalStatement:with:and:and:" : "fau 5/25/2020 21:12",
+		"KeywordMessageSegment:with:and:" : "fau 5/31/2020 19:13",
+		"KeywordMessageSend:with:and:" : "fau 5/31/2020 19:07",
 		"LocalVariableDeclarationList:with:and:and:" : "fau 5/26/2020 10:10",
 		"MethodDeclaration:with:and:and:" : "PS 5/31/2020 20:06",
 		"Statements:withManyStatements:withLiterals:" : "fau 5/26/2020 09:56",
+		"UnaryMessageSendBase:with:" : "fau 5/31/2020 18:07",
+		"UnaryMessageSendMessage:with:and:" : "fau 5/31/2020 18:06",
 		"commentBetween:and:" : "fau 5/26/2020 09:50",
 		"decreaseIndentation" : "fau 5/26/2020 09:46",
 		"increaseIndentation" : "fau 5/26/2020 09:46",
