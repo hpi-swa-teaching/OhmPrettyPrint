@@ -6,4 +6,4 @@ MethodDeclaration: aNode with: aMethodHeader and: pragmas and: executableCode
 	self increaseIndentation.
 	comment := self commentBetween: aMethodHeader and: executableCode.
 	
-	^ header , comment , self newline , (self defaultExpression: executableCode)
+	^ header , comment , self newline , (self value: executableCode)
