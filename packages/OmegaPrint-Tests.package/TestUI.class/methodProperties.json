@@ -2,5 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
+		"testCodeHolderNotStyleable" : "PK 5/31/2020 17:28",
 		"testExistenceButton" : "TA 5/26/2020 13:22",
+		"testFormatString" : "PK 5/31/2020 18:18",
+		"testFormatStringWithButton" : "PK 5/31/2020 20:12",
+		"testMethod" : "PK 5/31/2020 20:13",
+		"testOmegaPrintStyleable" : "PK 5/31/2020 17:29",
 		"testTryAddButton" : "TA 6/1/2020 18:09" } }

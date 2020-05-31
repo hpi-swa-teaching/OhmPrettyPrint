@@ -2,6 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
+		"isModeStyleable" : "PK 5/29/2020 21:56",
 		"isShowingOmegaPrint" : "TA 5/26/2020 13:10",
 		"omegaPrintString" : "TA 5/26/2020 13:10",
+		"sourceStringPrettifiedAndDiffed" : "PK 5/29/2020 21:33",
 		"toggleOmegaPrint" : "TA 5/26/2020 11:55" } }
