@@ -3,6 +3,6 @@ testWhitespace
 
 	| result |
 	result := OPEvaluator
-					evaluate: ' test: 	parameter  '
+					evaluate: 'test: parameter'
 					startingFrom: #KeywordMessageSegment.
 	self assert: 'test: parameter' equals: result
