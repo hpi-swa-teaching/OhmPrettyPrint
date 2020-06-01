@@ -1,4 +1,4 @@
 *OmegaPrint-Core
 isModeStyleable
-	"determine the current mode can be styled"
-	^ self showingSource or: [self showingPrettyPrint] or: [self isShowingOmegaPrint]
+	"determine whether the current mode can be styled"
+	^ self showingSource or: [ self showingPrettyPrint ] or: [ self isShowingOmegaPrint ]
