@@ -4,5 +4,5 @@ ExecutableCode: aNode with: aLocalVariableDeclarationList and: pragmas and: more
 	| localVariableList |
 	localVariableList := self value: aLocalVariableDeclarationList.
 	localVariableList isEmpty
-		ifFalse: [ localVariableList := localVariableList, self newline ].
-	^ localVariableList, (self value: moreExecutableCode)
+		ifFalse: [ localVariableList := localVariableList , self newline ].
+	^ localVariableList , (self value: moreExecutableCode)
