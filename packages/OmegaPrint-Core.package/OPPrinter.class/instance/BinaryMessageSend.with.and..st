@@ -6,4 +6,3 @@ BinaryMessageSend: aNode with: aBinaryMessageReceiver and: aBinaryMessage
 	aBinaryMessage children first isNil
 		ifFalse: [ result := result , ' ' , (self value: aBinaryMessage) ].
 	^ result
-		
