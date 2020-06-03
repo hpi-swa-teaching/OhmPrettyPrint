@@ -1,7 +1,6 @@
 *OmegaPrint-Core
 sourceStringPrettifiedAndDiffed
 	"Answer a copy of the source code for the selected message, transformed by diffing and pretty-printing exigencies"
-
 	| class selector sourceString prettifierClass |
 	class := self selectedClassOrMetaClass.
 	selector := self selectedMessageName.
