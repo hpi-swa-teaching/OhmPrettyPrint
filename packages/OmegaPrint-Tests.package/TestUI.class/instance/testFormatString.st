@@ -3,12 +3,16 @@ testFormatString
 	
 	| cst evaluator |
 	cst := OhmExplicitSendsSmalltalk
-			match: 'testMethod'
+			match: (self class
+							ultimateSourceCodeAt: #exampleMethod
+							ifAbsent: [ ^ 'error' ])
 			startingFrom: #MethodDeclaration.
 	evaluator := OhmExplicitSendsSmalltalk synthesizedAttribute: OPPrinter new.
 	self 
 		assert: (OPPrinter
-					format: 'testMethod'
+					format: (self class
+									ultimateSourceCodeAt: #exampleMethod
+									ifAbsent: [ ^ 'error' ])
 					in: TestUI
 					notifying: nil)
 		equals: (evaluator value: cst)
