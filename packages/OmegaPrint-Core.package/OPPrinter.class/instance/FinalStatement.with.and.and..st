@@ -6,4 +6,3 @@ FinalStatement: aNode with: aTerminal and: aStatement and: anotherTerminal
 	circumflex isNil
 		ifTrue: [ ^ self value: aStatement ]
 		ifFalse: [ ^ circumflex , ' ' , (self value: aStatement) ]
-		
