@@ -4,9 +4,8 @@
 	"instance" : {
 		"exampleMethod" : "PK 6/1/2020 18:29",
 		"testCodeHolderNotStyleable" : "PK 6/3/2020 13:14",
-		"testExistenceButton" : "TA 5/26/2020 13:22",
-		"testFormatString" : "PK 6/3/2020 13:18",
-		"testFormatStringWithButton" : "PK 6/1/2020 18:31",
-		"testMethod" : "PK 5/31/2020 20:13",
+		"testExistenceButton" : "fau 6/7/2020 18:25",
+		"testFormatString" : "fau 6/7/2020 18:33",
+		"testFormatStringWithButton" : "fau 6/7/2020 18:36",
 		"testOmegaPrintStyleable" : "PK 6/1/2020 18:27",
-		"testTryAddButton" : "TA 6/1/2020 18:09" } }
+		"testRepeatAddButton" : "fau 6/7/2020 18:29" } }

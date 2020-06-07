@@ -1,13 +1,13 @@
 button functionality
 testFormatStringWithButton
-	
-	| browser cst evaluator |
-	cst := OhmExplicitSendsSmalltalk 
-				match: (self class
-								ultimateSourceCodeAt: #exampleMethod
-								ifAbsent: [ ^ 'error' ])
-				startingFrom: #MethodDeclaration.
-	evaluator := OhmExplicitSendsSmalltalk synthesizedAttribute: OPPrinter new.
+
+	| result method browser |
+	method := self class
+		ultimateSourceCodeAt: #exampleMethod
+		ifAbsent: [ ^ 'error' ].
+	result := OPPrinter
+		evaluate: method
+		startingFrom: #MethodDeclaration.
 	browser := Browser new.
 	browser contentsSymbol: #omegaPrint.
 	browser
@@ -16,7 +16,6 @@ testFormatStringWithButton
 	browser
 		instVarNamed: 'selectedMessageName'
 		put: #exampleMethod.
-
 	self
 		assert: browser sourceStringPrettifiedAndDiffed
-		equals: (evaluator value: cst)
+		equals: result

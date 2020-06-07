@@ -1,7 +1,7 @@
 {
 	"class" : {
-		"evaluate:" : "PK 5/29/2020 22:02",
-		"format:in:notifying:" : "PK 6/3/2020 10:18" },
+		"evaluate:startingFrom:" : "fau 6/7/2020 18:03",
+		"format:in:notifying:" : "fau 6/7/2020 18:07" },
 	"instance" : {
 		"BinaryMessage:with:and:" : "fau 5/31/2020 18:37",
 		"BinaryMessageSend:with:and:" : "fau 6/1/2020 18:43",
