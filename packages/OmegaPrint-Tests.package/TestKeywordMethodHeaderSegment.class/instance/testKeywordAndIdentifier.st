@@ -5,4 +5,6 @@ testKeywordAndIdentifier
 	result := OPPrinter
 		evaluate: 'test: parameter'
 		startingFrom: #KeywordMethodHeaderSegment.
-	self assert: 'test: parameter' equals: result
+	self
+		assert: 'test: parameter'
+		equals: result
