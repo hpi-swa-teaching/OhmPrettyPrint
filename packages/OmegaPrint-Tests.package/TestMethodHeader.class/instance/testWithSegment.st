@@ -1,5 +1,5 @@
 keyword method header
-testSegment
+testWithSegment
 
 	| result |
 	result := OPPrinter
