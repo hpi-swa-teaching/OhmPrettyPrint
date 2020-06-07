@@ -2,5 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testWhitespace" : "PS 5/24/2020 20:24",
-		"testWhitespaceComplex" : "PS 5/24/2020 20:24" } }
+		"testWithCircumflexAndStatementWithPoint" : "fau 6/7/2020 17:58",
+		"testWithCircumflexAndStatementWithoutPoint" : "fau 6/7/2020 17:59",
+		"testWithoutCircumflexAndStatementWithPoint" : "fau 6/7/2020 17:59",
+		"testWithoutCircumflexAndStatementWithoutPoint" : "fau 6/7/2020 17:59" } }

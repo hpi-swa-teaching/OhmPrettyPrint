@@ -1,18 +1,16 @@
 button functionality
 testFormatString
-	
-	| cst evaluator |
-	cst := OhmExplicitSendsSmalltalk
-			match: (self class
-							ultimateSourceCodeAt: #exampleMethod
-							ifAbsent: [ ^ 'error' ])
-			startingFrom: #MethodDeclaration.
-	evaluator := OhmExplicitSendsSmalltalk synthesizedAttribute: OPPrinter new.
-	self 
+
+	| result method |
+	method := self class
+		ultimateSourceCodeAt: #exampleMethod
+		ifAbsent: [ ^ 'error' ].
+	result := OPPrinter
+		evaluate: method
+		startingFrom: #MethodDeclaration.
+	self
 		assert: (OPPrinter
-					format: (self class
-									ultimateSourceCodeAt: #exampleMethod
-									ifAbsent: [ ^ 'error' ])
-					in: TestUI
-					notifying: nil)
-		equals: (evaluator value: cst)
+			format: method
+			in: TestUI
+			notifying: nil)
+		equals: result

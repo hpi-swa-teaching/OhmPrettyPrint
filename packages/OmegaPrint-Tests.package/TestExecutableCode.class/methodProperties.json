@@ -2,4 +2,5 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testNewlineAfterLocalVariableList" : "PS 5/31/2020 20:04" } }
+		"testWithVariablesWithoutPragmasAndCode" : "fau 6/7/2020 17:51",
+		"testWithoutVariablesWithoutPragmasAndCode" : "fau 6/7/2020 17:54" } }
