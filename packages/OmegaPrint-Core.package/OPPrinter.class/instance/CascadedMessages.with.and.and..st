@@ -8,4 +8,3 @@ CascadedMessages: aNode with: aMessageChain and: semicolon and: messageChains
 		into: [ :string :each |
 			string , ';' , self newline , (self value: each) ]).
 	^ result
-	
