@@ -1,0 +1,14 @@
+{
+	"category" : "OmegaPrint-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TestSpecialCases",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
