@@ -6,5 +6,5 @@ testWithoutComment
 		evaluate: 'testHeader self halt.'
 		startingFrom: #MethodDeclaration.
 	self
-		assert: 'testHeader' , String cr , String cr , String tab , 'self halt.'
+		assert: 'testHeader' , String cr , String cr , String tab , 'self halt'
 		equals: result

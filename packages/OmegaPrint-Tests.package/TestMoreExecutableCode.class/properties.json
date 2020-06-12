@@ -1,14 +1,14 @@
 {
-	"category" : "OmegaPrint-Core",
+	"category" : "OmegaPrint-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"indentation" ],
-	"name" : "OPPrinter",
+		 ],
+	"name" : "TestMoreExecutableCode",
 	"pools" : [
 		 ],
-	"super" : "OhmSourceRewriter",
+	"super" : "TestCase",
 	"type" : "normal" }
