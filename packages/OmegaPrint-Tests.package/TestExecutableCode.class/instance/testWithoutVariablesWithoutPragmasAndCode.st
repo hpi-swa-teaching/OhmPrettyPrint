@@ -6,5 +6,5 @@ testWithoutVariablesWithoutPragmasAndCode
 		evaluate: 'self halt.'
 		startingFrom: #ExecutableCode.
 	self
-		assert: 'self halt.'
+		assert: 'self halt'
 		equals: result
