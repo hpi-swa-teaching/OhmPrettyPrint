@@ -3,8 +3,8 @@ testStatementsWithFinalStatement
 
 	| result |
 	result := OPPrinter
-		evaluate: '2 + 3. ^ self.'
+		evaluate: '^ 2 + 3'
 		startingFrom: #MoreExecutableCode.
 	self
-		assert: '2 + 3.' , String cr , '^ self'
+		assert: '^ 2 + 3'
 		equals: result
