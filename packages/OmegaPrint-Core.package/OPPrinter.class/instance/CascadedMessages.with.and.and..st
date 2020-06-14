@@ -1,10 +1,10 @@
 actions
-CascadedMessages: aNode with: aMessageChain and: semicolon and: messageChains
+CascadedMessages: aNode with: aMessageChain and: aLiteral and: messageChains
 
 	| result |
 	result := self value: aMessageChain.
-	result := result , (messageChains children
-		inject: ''
+	result := messageChains children
+		inject: result
 		into: [ :string :each |
-			string , ';' , self newline , (self value: each) ]).
+			string , ';' , self newline , (self value: each) ].
 	^ result
