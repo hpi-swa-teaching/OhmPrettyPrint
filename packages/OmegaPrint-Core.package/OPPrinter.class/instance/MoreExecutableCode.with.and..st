@@ -1,11 +1,11 @@
 actions
 MoreExecutableCode: aNode with: statements and: aFinalStatement
 
-	| result |
+	| result finalStatement |
 	result := self value: statements.
-	aFinalStatement children first
-		ifNotNil: [
-			result
-				ifEmpty: [ result := self value: aFinalStatement ]
-				ifNotEmpty: [ result := result , '.' , self newline , (self value: aFinalStatement) ]].
+	finalStatement := self value: aFinalStatement.
+	finalStatement ifNotEmpty: [
+		result
+			ifEmpty: [ result := finalStatement ]
+			ifNotEmpty: [ result := result , '.' , self newline , finalStatement ] ].
 	^ result
