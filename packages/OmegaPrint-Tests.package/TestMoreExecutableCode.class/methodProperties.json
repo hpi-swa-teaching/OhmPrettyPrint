@@ -3,4 +3,6 @@
 		 },
 	"instance" : {
 		"testStatementsWithFinalStatement" : "TA 6/13/2020 09:49",
+		"testStatementsWithStatementsAndFinalStatement" : "TA 6/14/2020 21:04",
+		"testStatementsWithStatementsAndWithoutFinalStatement" : "TA 6/14/2020 21:05",
 		"testStatementsWithoutFinalStatement" : "TA 6/12/2020 10:19" } }
