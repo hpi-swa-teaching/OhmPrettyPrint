@@ -3,7 +3,7 @@ testWithoutArgumentsWithoutLocalVariablesWithSingleLine
 
 	| result |
 	result := OPPrinter
-		evaluate: '[test]'
+		evaluate: '[test.]'
 		startingFrom: #BlockLiteral.
 	self
 		assert: '[ test ]'
