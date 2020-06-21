@@ -1,7 +1,7 @@
 button functionality
 testOmegaPrintString
 
-	|codeHolder |
+	| codeHolder |
 	codeHolder := CodeHolder new.
 	codeHolder contentsSymbol: #omegaPrint.
 	codeHolder toggleOmegaPrint.
