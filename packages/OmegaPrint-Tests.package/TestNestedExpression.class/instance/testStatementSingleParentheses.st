@@ -1,10 +1,10 @@
 base
-testStatement
+testStatementSingleParentheses
 
 	| result |
 	result := OPPrinter
 		evaluate: '(2+3)'
-		startingFrom: #MoreExecutableCode.
+		startingFrom: #NestedExpression.
 	self
 		assert: '(2 + 3)'
 		equals: result
