@@ -2,6 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testStatementsMultiple" : "TA 6/13/2020 09:39",
-		"testStatementsNone" : "TA 6/13/2020 09:39",
-		"testStatementsSingle" : "TA 6/13/2020 09:39" } }
+		"testWithMultipleStatements" : "TA 6/26/2020 10:52",
+		"testWithSingleStatement" : "TA 6/26/2020 10:52",
+		"testWithoutStatement" : "TA 6/26/2020 10:43" } }

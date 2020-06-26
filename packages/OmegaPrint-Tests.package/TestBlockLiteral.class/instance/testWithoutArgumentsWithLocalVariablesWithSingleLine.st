@@ -3,7 +3,7 @@ testWithoutArgumentsWithLocalVariablesWithSingleLine
 
 	| result |
 	result := OPPrinter
-		evaluate: '[|variable| test.]'
+		evaluate: '[|variable|test.]'
 		startingFrom: #BlockLiteral.
 	self
 		assert: '[ | variable |' , String cr , String tab , 'test ]'

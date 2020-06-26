@@ -2,5 +2,5 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testMessageChainWithMessageChain" : "TA 6/7/2020 21:34",
-		"testMessageChainWithMultipleMessageChains" : "TA 6/7/2020 21:44" } }
+		"testWithMessageChainWithMultipleMessageChains" : "TA 6/26/2020 10:48",
+		"testWithMessageChainWithSingleMessageChain" : "TA 6/26/2020 10:48" } }

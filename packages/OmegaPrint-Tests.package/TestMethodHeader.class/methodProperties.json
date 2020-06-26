@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testSelector" : "TA 6/7/2020 18:40",
-		"testSelectorAndIdentifier" : "TA 6/7/2020 18:25",
-		"testWithMultipleSegments" : "TA 6/7/2020 19:57",
-		"testWithSegment" : "TA 6/7/2020 19:57" } }
+		"testWithMultipleSegments" : "TA 6/26/2020 10:51",
+		"testWithSelector" : "TA 6/26/2020 10:35",
+		"testWithSelectorWithIdentifier" : "TA 6/26/2020 10:51",
+		"testWithSingleSegment" : "TA 6/26/2020 10:51" } }

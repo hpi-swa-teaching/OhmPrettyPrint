@@ -2,6 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testReceiverWithMultipleSegments" : "fau 6/7/2020 18:18",
-		"testReceiverWithOneSegment" : "fau 6/7/2020 18:19",
-		"testReceiverWithoutSegment" : "fau 6/7/2020 18:24" } }
+		"testWithReceiverWithMultipleSegments" : "TA 6/26/2020 10:56",
+		"testWithReceiverWithSingleSegment" : "TA 6/26/2020 10:50",
+		"testWithReceiverWithoutSegment" : "TA 6/26/2020 10:32" } }
