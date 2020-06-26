@@ -4,4 +4,4 @@ testToggleOmegaPrintNegative
 	| codeHolder |
 	codeHolder := CodeHolder new.
 	codeHolder contentsSymbol: #source.
-	self assert: codeHolder omegaPrintString equals: '<no>omegaPrint'
+	self assert: '<no>omegaPrint' equals: codeHolder omegaPrintString

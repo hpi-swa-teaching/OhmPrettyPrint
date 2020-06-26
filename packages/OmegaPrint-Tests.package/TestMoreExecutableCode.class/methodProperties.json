@@ -2,5 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testStatementsWithFinalStatement" : "TA 6/13/2020 09:49",
-		"testStatementsWithoutFinalStatement" : "TA 6/12/2020 10:19" } }
+		"testWithMultipleStatementsWithFinalStatement" : "TA 6/26/2020 10:51",
+		"testWithMultipleStatementsWithoutFinalStatement" : "TA 6/26/2020 10:51",
+		"testWithSingleStatementWithFinalStatement" : "TA 6/26/2020 10:52",
+		"testWithSingleStatementWithoutFinalStatement" : "TA 6/26/2020 10:52",
+		"testWithoutStatementWithFinalStatement" : "TA 6/26/2020 10:52",
+		"testWithoutStatementWithoutFinalStatement" : "TA 6/26/2020 10:39" } }

@@ -5,6 +5,6 @@ testOmegaPrintString
 	codeHolder := CodeHolder new.
 	codeHolder contentsSymbol: #omegaPrint.
 	codeHolder toggleOmegaPrint.
-	self assert: codeHolder contentsSymbol equals: #source.
+	self assert: #source equals: codeHolder contentsSymbol.
 	codeHolder toggleOmegaPrint.
-	self assert: codeHolder contentsSymbol equals: #omegaPrint
+	self assert: #omegaPrint equals: codeHolder contentsSymbol
