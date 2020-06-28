@@ -1,5 +1,5 @@
-button functionality
-testToggleOmegaPrintNegative
+code holder
+testOmegaPrintStringNegative
 
 	| codeHolder |
 	codeHolder := CodeHolder new.

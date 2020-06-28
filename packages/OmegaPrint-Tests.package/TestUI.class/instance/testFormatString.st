@@ -2,15 +2,13 @@ button functionality
 testFormatString
 
 	| result method |
-	method := self class
-		ultimateSourceCodeAt: #exampleMethod
-		ifAbsent: [ ^ 'error' ].
+	method := 'testMethod self test.'.
 	result := OPPrinter
 		evaluate: method
 		startingFrom: #MethodDeclaration.
 	self
-		assert: (OPPrinter
+		assert: result
+		equals: (OPPrinter
 			format: method
 			in: TestUI
 			notifying: nil)
-		equals: result

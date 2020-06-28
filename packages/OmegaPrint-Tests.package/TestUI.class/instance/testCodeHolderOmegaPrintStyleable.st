@@ -1,5 +1,5 @@
 code holder
-testOmegaPrintStyleable
+testCodeHolderOmegaPrintStyleable
 
 	| codeHolder |
 	codeHolder := CodeHolder new.

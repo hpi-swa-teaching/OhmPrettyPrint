@@ -1,4 +1,4 @@
-button browser
+button
 testRepeatAddButton
 
 	self

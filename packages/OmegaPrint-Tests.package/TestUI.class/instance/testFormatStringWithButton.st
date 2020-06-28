@@ -17,5 +17,5 @@ testFormatStringWithButton
 		instVarNamed: 'selectedMessageName'
 		put: #exampleMethod.
 	self
-		assert: browser sourceStringPrettifiedAndDiffed
-		equals: result
+		assert: result
+		equals: browser sourceStringPrettifiedAndDiffed
