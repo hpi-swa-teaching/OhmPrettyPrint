@@ -2,5 +2,5 @@ button browser
 testRepeatAddButton
 
 	self
-		shouldnt: [ OPButton initialize ]
+		shouldnt: [ OPUserInterface initialize ]
 		raise: Warning
