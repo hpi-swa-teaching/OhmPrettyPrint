@@ -1,5 +1,5 @@
-button functionality
-testOmegaPrintString
+code holder
+testToggleOmegaPrint
 
 	| codeHolder |
 	codeHolder := CodeHolder new.

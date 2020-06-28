@@ -1,4 +1,4 @@
-button browser
+button
 testOmegaPrintQuint
 
 	| quint |
