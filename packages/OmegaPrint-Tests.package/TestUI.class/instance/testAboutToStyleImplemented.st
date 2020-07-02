@@ -5,5 +5,4 @@ testAboutToStyleImplemented
 	messageSet contentsSymbol: #omegaPrint.
 	messageSet editSelection: #editMessage.
 	self
-		assert: true
-		equals: (messageSet aboutToStyle: SHTextStylerST80 new)
+		assert: (messageSet aboutToStyle: SHTextStylerST80 new)
