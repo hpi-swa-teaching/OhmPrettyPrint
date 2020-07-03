@@ -10,7 +10,7 @@ BlockLiteralNormal: aNode with: aLiteral and: blockArguments and: executableCode
 	resultVariables
 		ifEmpty: [ | lines |
 			lines := (self value: executableCode children third) lineCount.
-			lines > 1
+			(lines > 1 and: [ resultArguments notEmpty ])
 				ifTrue: [ result := result , self newline ]
 				ifFalse: [ result := result , ' ' ] ]
 		ifNotEmpty: [  result := result , ' ' ].
