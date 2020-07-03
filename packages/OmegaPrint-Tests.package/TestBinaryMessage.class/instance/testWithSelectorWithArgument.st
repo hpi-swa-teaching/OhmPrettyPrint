@@ -1,10 +1,6 @@
 base
 testWithSelectorWithArgument
 
-	| result |
-	result := OPPrinter
-		evaluate: '@2'
-		startingFrom: #BinaryMessage.
 	self
-		assert: '@ 2'
-		equals: result
+		prettify: '@2'
+		shouldEqual: '@ 2'
