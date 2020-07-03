@@ -7,4 +7,4 @@ testWithoutArgumentsWithoutLocalVariablesWithMultipleLines
 		startingFrom: #BlockLiteral.
 	self
 		assert: '[ test1.' , String cr , String tab , 'test2 ]'
-		equals: result.
+		equals: result
