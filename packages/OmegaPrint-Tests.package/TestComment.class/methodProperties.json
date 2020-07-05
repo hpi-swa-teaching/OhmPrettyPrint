@@ -3,4 +3,12 @@
 		 },
 	"instance" : {
 		"startSymbol" : "PS 7/5/2020 17:48",
-		"testWithoutComment" : "fau 7/10/2020 10:28" } }
+		"testValueWithMultilineComment" : "TA 7/5/2020 18:44",
+		"testValueWithSinglelineComment" : "TA 7/5/2020 18:43",
+		"testValueWithoutComment" : "TA 7/5/2020 18:44",
+		"testWithCommentAfter" : "TA 7/5/2020 18:44",
+		"testWithCommentAfterHeader" : "TA 7/5/2020 18:45",
+		"testWithCommentBefore" : "TA 7/5/2020 18:45",
+		"testWithoutCommentAfter" : "TA 7/5/2020 18:17",
+		"testWithoutCommentAfterHeader" : "TA 7/5/2020 18:32",
+		"testWithoutCommentBefore" : "TA 7/5/2020 18:17" } }
