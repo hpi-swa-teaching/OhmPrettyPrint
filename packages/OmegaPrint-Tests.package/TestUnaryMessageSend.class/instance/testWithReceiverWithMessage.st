@@ -1,10 +1,6 @@
 message
 testWithReceiverWithMessage
 
-	| result |
-	result := OPPrinter
-		evaluate: '1 negated'
-		startingFrom: #UnaryMessageSend.
 	self
-		assert: '1 negated'
-		equals: result
+		prettify: '1 negated'
+		shouldEqual: '1 negated'

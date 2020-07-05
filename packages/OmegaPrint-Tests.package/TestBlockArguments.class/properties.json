@@ -10,5 +10,5 @@
 	"name" : "TestBlockArguments",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "OPTestEvaluator",
 	"type" : "normal" }

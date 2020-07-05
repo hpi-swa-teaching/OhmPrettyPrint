@@ -10,5 +10,5 @@
 	"name" : "TestBinaryMessageSend",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "OPTestEvaluator",
 	"type" : "normal" }
