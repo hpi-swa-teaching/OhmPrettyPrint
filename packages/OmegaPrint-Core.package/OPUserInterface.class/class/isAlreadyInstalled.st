@@ -1,6 +1,4 @@
 class initialization
 isAlreadyInstalled
 
-	^ CodeHolder new contentsSymbolQuints
-				anySatisfy: [ :each | (each isKindOf: Collection)
-						and: [ each first = #omegaPrint ] ]
+	^ CodeHolder new contentsSymbolQuints anySatisfy: [ :each | (each isCollection) and: [ each first = #omegaPrint ] ]
