@@ -10,5 +10,5 @@
 	"name" : "TestNestedExpression",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "OPTestEvaluator",
 	"type" : "normal" }

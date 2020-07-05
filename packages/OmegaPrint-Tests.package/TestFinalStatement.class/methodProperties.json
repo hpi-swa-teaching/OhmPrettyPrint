@@ -2,7 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testWithCircumflexWithStatementWithPoint" : "TA 6/26/2020 10:31",
-		"testWithCircumflexWithStatementWithoutPoint" : "TA 6/26/2020 10:31",
-		"testWithoutCircumflexWithStatementWithPoint" : "TA 6/26/2020 10:31",
-		"testWithoutCircumflexWithStatementWithoutPoint" : "TA 6/26/2020 10:31" } }
+		"startSymbol" : "PS 7/5/2020 17:59",
+		"testWithCircumflexWithStatementWithPoint" : "PS 7/5/2020 17:59",
+		"testWithCircumflexWithStatementWithoutPoint" : "PS 7/5/2020 18:00",
+		"testWithoutCircumflexWithStatementWithPoint" : "PS 7/5/2020 18:01",
+		"testWithoutCircumflexWithStatementWithoutPoint" : "PS 7/5/2020 18:02" } }

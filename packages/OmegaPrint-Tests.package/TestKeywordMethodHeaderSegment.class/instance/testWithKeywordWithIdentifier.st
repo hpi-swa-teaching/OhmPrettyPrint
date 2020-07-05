@@ -1,10 +1,6 @@
 base
 testWithKeywordWithIdentifier
 
-	| result |
-	result := OPPrinter
-		evaluate: 'test:parameter'
-		startingFrom: #KeywordMethodHeaderSegment.
 	self
-		assert: 'test: parameter'
-		equals: result
+		prettify: 'test:parameter'
+		shouldEqual: 'test: parameter'

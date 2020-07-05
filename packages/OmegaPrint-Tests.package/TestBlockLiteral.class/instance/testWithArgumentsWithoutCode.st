@@ -1,10 +1,6 @@
 normal
 testWithArgumentsWithoutCode
 
-	| result |
-	result := OPPrinter
-		evaluate: '[:arg|]'
-		startingFrom: #BlockLiteral.
 	self
-		assert: '[ :arg | ]'
-		equals: result
+		prettify: '[:arg|]'
+		shouldEqual: '[ :arg | ]'

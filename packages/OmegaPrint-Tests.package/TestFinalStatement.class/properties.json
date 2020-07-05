@@ -10,5 +10,5 @@
 	"name" : "TestFinalStatement",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "OPTestEvaluator",
 	"type" : "normal" }

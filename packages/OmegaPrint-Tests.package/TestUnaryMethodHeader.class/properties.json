@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "TestMethodHeader",
+	"name" : "TestUnaryMethodHeader",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "OPTestEvaluator",
 	"type" : "normal" }

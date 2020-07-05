@@ -10,5 +10,5 @@
 	"name" : "TestKeywordMessageSegment",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "OPTestEvaluator",
 	"type" : "normal" }

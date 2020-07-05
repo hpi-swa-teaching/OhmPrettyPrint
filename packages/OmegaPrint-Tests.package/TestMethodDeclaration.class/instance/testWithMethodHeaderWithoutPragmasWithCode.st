@@ -1,10 +1,6 @@
 base
 testWithMethodHeaderWithoutPragmasWithCode
 
-	| result |
-	result := OPPrinter
-		evaluate: 'testHeader 2+3. self halt.'
-		startingFrom: #MethodDeclaration.
 	self
-		assert: 'testHeader' , String cr , String cr , String tab , '2 + 3.' , String cr , String tab , 'self halt'
-		equals: result
+		prettify: 'testHeader 2+3. self halt.'
+		shouldEqual: 'testHeader' , String cr , String cr , String tab , '2 + 3.' , String cr , String tab , 'self halt'

@@ -1,10 +1,6 @@
 base
 testWithStatementWithSingleParentheses
 
-	| result |
-	result := OPPrinter
-		evaluate: '(2+3)'
-		startingFrom: #NestedExpression.
 	self
-		assert: '(2 + 3)'
-		equals: result
+		prettify: '(2+3)'
+		shouldEqual: '(2 + 3)'
