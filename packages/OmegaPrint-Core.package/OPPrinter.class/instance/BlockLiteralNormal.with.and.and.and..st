@@ -13,7 +13,7 @@ BlockLiteralNormal: aNode with: aLiteral and: blockArguments and: executableCode
 			(lines > 1 and: [ resultArguments notEmpty ])
 				ifTrue: [ result := result , self newline ]
 				ifFalse: [ result := result , ' ' ] ]
-		ifNotEmpty: [  result := result , ' ' ].
+		ifNotEmpty: [ result := result , ' ' ].
 	resultCode := self value: executableCode.
 	resultCode ifNotEmpty: [ result := result , resultCode , ' ' ].
 	self decreaseIndentation.
