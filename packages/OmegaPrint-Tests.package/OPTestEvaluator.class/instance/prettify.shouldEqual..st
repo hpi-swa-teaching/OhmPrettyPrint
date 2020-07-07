@@ -8,4 +8,3 @@ prettify: aString shouldEqual: anotherString
 	self
 		assert: anotherString
 		equals: result
-		
