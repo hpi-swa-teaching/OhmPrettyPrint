@@ -3,6 +3,7 @@
 		 },
 	"instance" : {
 		"exampleMethod" : "PK 6/1/2020 18:29",
+		"testAboutToStyleImplemented" : " 7/9/2020 17:08:30",
 		"testCodeHolderOmegaPrintNotStyleable" : "PK 7/7/2020 12:10",
 		"testCodeHolderOmegaPrintStyleable" : "TA 6/25/2020 20:59",
 		"testExistenceButton" : "PS 7/5/2020 18:56",
@@ -12,5 +13,4 @@
 		"testOmegaPrintStringNegative" : "PS 7/7/2020 12:00",
 		"testOmegaPrintStringPositive" : "PS 7/7/2020 12:01",
 		"testRepeatAddButton" : "fau 6/28/2020 18:19",
-		"testToggleOmegaPrintNegative" : "TA 6/26/2020 10:45",
-		"testToggleOmegaPrintPositive" : "TA 6/26/2020 10:45" } }
+		"testToggleOmegaPrint" : " 7/9/2020 17:08:30" } }
