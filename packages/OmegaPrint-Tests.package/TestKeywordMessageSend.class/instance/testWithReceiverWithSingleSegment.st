@@ -2,5 +2,5 @@ base
 testWithReceiverWithSingleSegment
 
 	self
-		prettify:  'receiver message:arg'
-		shouldEqual: 'receiver message: arg'
+		prettify:  'receiver keyword:arg'
+		shouldEqual: 'receiver keyword: arg'
