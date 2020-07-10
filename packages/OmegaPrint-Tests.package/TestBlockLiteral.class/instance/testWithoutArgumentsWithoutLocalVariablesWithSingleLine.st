@@ -2,5 +2,5 @@ normal
 testWithoutArgumentsWithoutLocalVariablesWithSingleLine
 
 	self
-		prettify: '[test.]'
-		shouldEqual: '[ test ]'
+		prettify: '[statement.]'
+		shouldEqual: '[ statement ]'

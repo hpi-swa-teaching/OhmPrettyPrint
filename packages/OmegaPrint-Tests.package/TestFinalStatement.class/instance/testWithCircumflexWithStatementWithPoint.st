@@ -2,5 +2,5 @@ base
 testWithCircumflexWithStatementWithPoint
 
 	self
-		prettify: '^self.'
-		shouldEqual: '^ self'
+		prettify: '^statement.'
+		shouldEqual: '^ statement'

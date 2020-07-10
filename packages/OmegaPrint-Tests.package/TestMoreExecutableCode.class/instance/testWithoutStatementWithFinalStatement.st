@@ -2,5 +2,5 @@ base
 testWithoutStatementWithFinalStatement
 
 	self
-		prettify: '^2+3'
-		shouldEqual: '^ 2 + 3'
+		prettify: '^statement'
+		shouldEqual: '^ statement'

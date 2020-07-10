@@ -3,9 +3,7 @@
 		 },
 	"instance" : {
 		"startSymbol" : "PS 7/5/2020 18:23",
-		"testWithMultipleStatementsWithFinalStatement" : "PS 7/5/2020 18:24",
-		"testWithMultipleStatementsWithoutFinalStatement" : "PS 7/5/2020 18:29",
-		"testWithSingleStatementWithFinalStatement" : "PS 7/5/2020 18:29",
-		"testWithSingleStatementWithoutFinalStatement" : "PS 7/5/2020 18:30",
-		"testWithoutStatementWithFinalStatement" : "PS 7/5/2020 18:30",
+		"testWithStatementsWithFinalStatement" : "fau 7/10/2020 10:43",
+		"testWithStatementsWithoutFinalStatement" : "fau 7/10/2020 10:44",
+		"testWithoutStatementWithFinalStatement" : "fau 7/10/2020 10:44",
 		"testWithoutStatementWithoutFinalStatement" : "PS 7/5/2020 18:31" } }

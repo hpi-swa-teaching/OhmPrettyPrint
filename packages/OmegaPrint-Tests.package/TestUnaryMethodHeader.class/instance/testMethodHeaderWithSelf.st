@@ -2,5 +2,5 @@ special cases
 testMethodHeaderWithSelf
 
 	self
-		prettify: 'selfTest'
-		shouldEqual: 'selfTest'
+		prettify: 'selfHeader'
+		shouldEqual: 'selfHeader'

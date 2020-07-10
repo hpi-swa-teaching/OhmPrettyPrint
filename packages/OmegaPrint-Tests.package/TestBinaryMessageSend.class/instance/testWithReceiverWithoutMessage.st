@@ -2,5 +2,5 @@ base
 testWithReceiverWithoutMessage
 
 	self
-		prettify: '2'
-		shouldEqual: '2'
+		prettify: 'receiver'
+		shouldEqual: 'receiver'

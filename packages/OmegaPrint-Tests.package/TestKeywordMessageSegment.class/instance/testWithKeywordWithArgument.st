@@ -2,5 +2,5 @@ base
 testWithKeywordWithArgument
 
 	self
-		prettify:  'test:parameter'
-		shouldEqual: 'test: parameter'
+		prettify:  'message:arg'
+		shouldEqual: 'message: arg'

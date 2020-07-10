@@ -2,5 +2,5 @@ normal
 testWithoutArgumentsWithoutLocalVariablesWithMultipleLines
 
 	self
-		prettify: '[test1.test2.]'
-		shouldEqual: '[ test1.' , String cr , String tab , 'test2 ]'
+		prettify: '[statement1.statement2.]'
+		shouldEqual: '[ statement1.' , String cr , String tab , 'statement2 ]'

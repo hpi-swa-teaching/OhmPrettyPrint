@@ -2,5 +2,5 @@ base
 testWithMultipleSegments
 
 	self
-		prettify: 'add:aNumber minus:anotherNumber'
-		shouldEqual: 'add: aNumber minus: anotherNumber'
+		prettify: 'message1:arg1 message2:arg2'
+		shouldEqual: 'message1: arg1 message2: arg2'

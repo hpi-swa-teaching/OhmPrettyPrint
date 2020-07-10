@@ -2,5 +2,5 @@ base
 testWithoutCircumflexWithStatementWithoutPoint
 
 	self
-		prettify: 'self'
-		shouldEqual: 'self'
+		prettify: 'statement'
+		shouldEqual: 'statement'

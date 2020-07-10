@@ -2,5 +2,5 @@ special cases
 testUnaryMessageWithThisContext
 
 	self
-		prettify: 'thisContextTest'
-		shouldEqual: 'thisContextTest'
+		prettify: 'thisContextMessage'
+		shouldEqual: 'thisContextMessage'

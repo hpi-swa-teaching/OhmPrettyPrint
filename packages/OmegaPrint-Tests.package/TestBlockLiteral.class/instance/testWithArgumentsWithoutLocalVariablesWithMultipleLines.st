@@ -2,5 +2,5 @@ normal
 testWithArgumentsWithoutLocalVariablesWithMultipleLines
 
 	self
-		prettify: '[:arg|test1.test2.]'
-		shouldEqual: '[ :arg |' , String cr , String tab , 'test1.' , String cr , String tab , 'test2 ]'
+		prettify: '[:arg|statement1.statement2.]'
+		shouldEqual: '[ :arg |' , String cr , String tab , 'statement1.' , String cr , String tab , 'statement2 ]'
