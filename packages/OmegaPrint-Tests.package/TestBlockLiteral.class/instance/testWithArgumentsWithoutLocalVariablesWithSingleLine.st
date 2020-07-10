@@ -2,5 +2,5 @@ normal
 testWithArgumentsWithoutLocalVariablesWithSingleLine
 
 	self
-		prettify: '[:arg|test.]'
-		shouldEqual: '[ :arg | test ]'
+		prettify: '[:arg|statement.]'
+		shouldEqual: '[ :arg | statement ]'

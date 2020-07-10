@@ -2,5 +2,5 @@ base
 testWithMessageChainWithMultipleMessageChains
 
 	self
-		prettify: 'message;message1;message2'
-		shouldEqual: 'message;' , String cr , 'message1;' , String cr , 'message2'
+		prettify: 'message1;message2;message3'
+		shouldEqual: 'message1;' , String cr , 'message2;' , String cr , 'message3'

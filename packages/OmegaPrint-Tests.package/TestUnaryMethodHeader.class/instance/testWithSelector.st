@@ -2,5 +2,5 @@ base
 testWithSelector
 
 	self
-		prettify: 'negated'
-		shouldEqual: 'negated'
+		prettify: 'header'
+		shouldEqual: 'header'

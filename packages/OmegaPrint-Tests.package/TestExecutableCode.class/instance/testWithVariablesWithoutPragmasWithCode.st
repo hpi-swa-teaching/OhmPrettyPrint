@@ -2,5 +2,5 @@ base
 testWithVariablesWithoutPragmasWithCode
 
 	self
-		prettify: '|variable|self halt.'
-		shouldEqual: '| variable |' , String cr , 'self halt'
+		prettify: '|variable|statement.'
+		shouldEqual: '| variable |' , String cr , 'statement'

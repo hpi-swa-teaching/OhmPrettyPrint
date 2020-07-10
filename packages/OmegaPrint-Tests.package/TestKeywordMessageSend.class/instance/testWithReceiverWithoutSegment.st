@@ -2,5 +2,5 @@ base
 testWithReceiverWithoutSegment
 
 	self
-		prettify: 'self'
-		shouldEqual: 'self'
+		prettify: 'receiver'
+		shouldEqual: 'receiver'

@@ -1,5 +1,5 @@
 base
-testWithSingleStatement
+testWithStatementsWithoutFinalStatement
 
 	self
 		prettify: 'statement.'

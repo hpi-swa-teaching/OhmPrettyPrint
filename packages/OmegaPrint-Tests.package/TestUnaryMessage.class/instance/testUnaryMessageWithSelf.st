@@ -2,5 +2,5 @@ special cases
 testUnaryMessageWithSelf
 
 	self
-		prettify: 'selfTest'
-		shouldEqual: 'selfTest'
+		prettify: 'selfMessage'
+		shouldEqual: 'selfMessage'

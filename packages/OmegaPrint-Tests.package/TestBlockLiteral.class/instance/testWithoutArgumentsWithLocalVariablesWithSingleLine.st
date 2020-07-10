@@ -2,5 +2,5 @@ normal
 testWithoutArgumentsWithLocalVariablesWithSingleLine
 
 	self
-		prettify: '[|variable|test.]'
-		shouldEqual: '[ | variable |' , String cr , String tab , 'test ]'
+		prettify: '[|variable|statement.]'
+		shouldEqual: '[ | variable |' , String cr , String tab , 'statement ]'

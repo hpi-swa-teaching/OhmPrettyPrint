@@ -2,5 +2,5 @@ operand cascade
 testWithOperandWithCascadedMessages
 
 	self
-		prettify: 'self message;message1'
-		shouldEqual: 'self' , String cr , String tab , 'message;' , String cr , String tab , 'message1'
+		prettify: 'receiver message1;message2'
+		shouldEqual: 'receiver' , String cr , String tab , 'message1;' , String cr , String tab , 'message2'

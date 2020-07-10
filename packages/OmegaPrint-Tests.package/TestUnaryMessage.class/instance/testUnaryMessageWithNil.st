@@ -2,5 +2,5 @@ special cases
 testUnaryMessageWithNil
 
 	self
-		prettify: 'nilTest'
-		shouldEqual: 'nilTest'
+		prettify: 'nilMessage'
+		shouldEqual: 'nilMessage'

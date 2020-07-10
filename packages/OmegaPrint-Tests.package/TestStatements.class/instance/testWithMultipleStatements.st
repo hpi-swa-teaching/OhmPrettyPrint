@@ -2,5 +2,5 @@ base
 testWithMultipleStatements
 
 	self
-		prettify: '2+3. 3+4.'
-		shouldEqual: '2 + 3.' , String cr , '3 + 4'
+		prettify: 'statement1. statement2.'
+		shouldEqual: 'statement1.' , String cr , 'statement2'

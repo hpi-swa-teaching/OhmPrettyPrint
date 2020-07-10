@@ -2,5 +2,5 @@ message
 testWithReceiverWithMessage
 
 	self
-		prettify: '1 negated'
-		shouldEqual: '1 negated'
+		prettify: 'receiver message'
+		shouldEqual: 'receiver message'

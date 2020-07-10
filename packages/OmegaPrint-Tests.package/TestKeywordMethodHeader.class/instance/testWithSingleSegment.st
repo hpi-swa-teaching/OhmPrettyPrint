@@ -2,5 +2,5 @@ base
 testWithSingleSegment
 
 	self
-		prettify: 'add:aNumber'
-		shouldEqual: 'add: aNumber'
+		prettify: 'message:arg'
+		shouldEqual: 'message: arg'
