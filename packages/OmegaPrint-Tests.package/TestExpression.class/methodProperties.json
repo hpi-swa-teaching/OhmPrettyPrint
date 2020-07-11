@@ -2,5 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"startSymbol" : "PS 7/5/2020 17:55",
-		"testWithOperandWithCascadedMessages" : "fau 7/10/2020 10:29" } }
+		"startSymbol" : "TA 7/10/2020 10:50",
+		"testWithBinaryMessageSendWithCascadedMessages" : "TA 7/11/2020 13:12",
+		"testWithOperandWithCascadedMessages" : "TA 7/11/2020 13:09",
+		"testWithUnaryMessageSendWithCascadedMessages" : "TA 7/11/2020 13:14" } }
