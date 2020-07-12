@@ -7,7 +7,7 @@
 		"BinaryMessageSend:with:and:" : "PK 7/5/2020 18:44",
 		"BinaryMethodHeader:with:and:" : "TA 6/7/2020 19:59",
 		"BlockArguments:with:and:" : "PS 6/13/2020 21:08",
-		"BlockLiteralNormal:with:and:and:and:" : "PK 7/5/2020 18:45",
+		"BlockLiteralNormal:with:and:and:and:" : "TA 7/12/2020 18:19",
 		"BlockLiteralSpecialEmpty:with:and:and:" : "TA 6/14/2020 20:33",
 		"CascadedMessages:with:and:and:" : "PK 7/5/2020 18:45",
 		"ExecutableCode:with:and:and:" : "PK 7/5/2020 18:45",
@@ -31,4 +31,5 @@
 		"indentation" : "fau 5/26/2020 10:39",
 		"indentation:" : "fau 5/26/2020 10:39",
 		"initialize" : "fau 5/26/2020 10:37",
-		"newline" : "fau 5/26/2020 09:47" } }
+		"newline" : "fau 5/26/2020 09:47",
+		"spaceBeforeCode:and:" : "TA 7/12/2020 18:18" } }
