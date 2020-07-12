@@ -1,10 +1,10 @@
 after method
-testWithoutCommentAfter
+testWithoutComment
 
 	| result |
 	result := OPPrinter
 		evaluate: 'testHeader'
 		startingFrom: #MethodDeclaration.
 	self
-		assert: 'testHeader'
+		assert: 'testHeader' , String cr , String cr , String tab
 		equals: result

@@ -4,7 +4,7 @@ testValueWithoutComment
 	| result |
 	result := OPPrinter
 		evaluate: 'test test'
-		startingFrom: #Expression.
+		startingFrom: #UnaryMessageSend.
 	self
 		assert: 'test test'
 		equals: result
