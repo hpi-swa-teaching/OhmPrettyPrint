@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"startSymbol" : "fau 7/12/2020 20:39",
+		"testWithMultipleObjectArrayLiteralElementsWithPoint" : "fau 7/12/2020 20:45",
+		"testWithMultipleObjectArrayLiteralElementsWithoutPoint" : "fau 7/12/2020 20:45",
+		"testWithSingleObjectArrayLiteralElementWithPoint" : "fau 7/12/2020 20:46",
+		"testWithSingleObjectArrayLiteralElementWithoutPoint" : "fau 7/12/2020 20:46",
+		"testWithoutObjectArrayLiteralElement" : "fau 7/12/2020 20:41" } }
