@@ -11,13 +11,10 @@ value: inputNode
 	
 	selectors := self selectors select: [:msg | msg beginsWith: ruleMessageName].
 	self assert: selectors size <= 1.
-	
-	result := ''.
-	{aNode}
-		try: [ :each | result := (self value: each skippedSpacesNodes), ' ' ]
-		ignore: Error.
-		
-	(result includesSubstring: '"') ifFalse: [result := ''].
+
+	[ result := self value: aNode skippedSpacesNodes ]
+		on: Error
+		do: [ result := '' ].
 	
 	selectors size = 1
 		ifTrue:  [ ^ result , (self 
