@@ -1,4 +1,4 @@
 constants
 startSymbol
-
-	^ #MethodDeclaration
+	"ToDo: define StartingPoint"
+	"Needs to be implemented"
