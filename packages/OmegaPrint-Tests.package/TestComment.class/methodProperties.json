@@ -2,12 +2,16 @@
 	"class" : {
 		 },
 	"instance" : {
-		"startSymbol" : "PS 7/5/2020 17:48",
-		"testValueWithMultilineComment" : "PS 7/12/2020 16:39",
-		"testValueWithSinglelineComment" : "PS 7/12/2020 15:50",
-		"testValueWithoutComment" : "PS 7/12/2020 15:22",
-		"testWithCommentAfter" : "PS 7/12/2020 16:41",
-		"testWithCommentAfterHeader" : "TA 7/5/2020 18:45",
-		"testWithCommentBefore" : "TA 7/5/2020 18:45",
-		"testWithoutComment" : "PS 7/12/2020 16:42",
-		"testWithoutCommentAfterHeader" : "PS 7/12/2020 15:18" } }
+		"prettify:startingFrom:shouldEqual:" : "PS 7/12/2020 18:32",
+		"startSymbol" : "PS 7/12/2020 19:08",
+		"testUnaryMessageWithMultilineComment" : "PS 7/12/2020 18:47",
+		"testUnaryMessageWithMultilineCommentAndNewLine" : "PS 7/12/2020 18:51",
+		"testUnaryMessageWithMultipleComments" : "PS 7/12/2020 18:54",
+		"testUnaryMessageWithSingellineCommentAndNewLine" : "PS 7/12/2020 18:49",
+		"testUnaryMessageWithSinglelineComment" : "PS 7/12/2020 18:48",
+		"testWithCommentAfterCascadeReceiver" : "PS 7/12/2020 19:21",
+		"testWithCommentAfterMethodHeader" : "PS 7/12/2020 18:59",
+		"testWithCommentAfterMethodHeaderWithStatement" : "PS 7/12/2020 19:11",
+		"testWithCommentAfterStatement" : "PS 7/12/2020 19:13",
+		"testWithCommentBeforeMethodHeader" : "PS 7/12/2020 19:00",
+		"testWithCommentInCascadedMessages" : "PS 7/12/2020 19:21" } }
