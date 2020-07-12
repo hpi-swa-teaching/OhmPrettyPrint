@@ -3,4 +3,4 @@ testWithoutArgumentsWithoutCode
 
 	self
 		prettify: '[]'
-		shouldEqual: '[ ]'
+		shouldEqual: '[]'
