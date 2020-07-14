@@ -5,11 +5,12 @@ value: inputNode
 	inputNode isOhmMatchResult 
 		ifTrue: [aNode := inputNode cst]
 		ifFalse: [aNode := inputNode ].
+
+	result := super value: aNode.
+	(self isNameOfSyntacticRule: aNode ruleName) ifFalse: [ ^ result ].
 	
 	[ spaces := self value: aNode skippedSpacesNodes ]
 		on: Error
 		do: [ spaces := '' ].
-		
-	result := super value: aNode.
 	
 	^ spaces , result
