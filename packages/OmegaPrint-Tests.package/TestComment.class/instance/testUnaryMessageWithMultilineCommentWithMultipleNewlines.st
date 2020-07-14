@@ -1,5 +1,5 @@
 default
-testUnaryMessageWithMultilineCommentAndNewLine
+testUnaryMessageWithMultilineCommentWithMultipleNewlines
 
 	self
 		prettify: 'receiver' , String cr , '"comment1' , String cr , 'comment2"' , String cr , 'message'

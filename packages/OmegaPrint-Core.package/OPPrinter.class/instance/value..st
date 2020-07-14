@@ -1,25 +1,15 @@
 value
 value: inputNode
 
-	| selectors ruleName ruleMessageName aNode result |
+	| aNode spaces result |
 	inputNode isOhmMatchResult 
 		ifTrue: [aNode := inputNode cst]
 		ifFalse: [aNode := inputNode ].
 	
-	ruleName := aNode ruleName asSymbol.
-	ruleMessageName := self class ruleNameToMessageName: ruleName.
-	
-	selectors := self selectors select: [:msg | msg beginsWith: ruleMessageName].
-	self assert: selectors size <= 1.
-
-	[ result := self value: aNode skippedSpacesNodes ]
+	[ spaces := self value: aNode skippedSpacesNodes ]
 		on: Error
-		do: [ result := '' ].
+		do: [ spaces := '' ].
+		
+	result := super value: aNode.
 	
-	selectors size = 1
-		ifTrue:  [ ^ result , (self 
-			perform: selectors anyOne 
-			withArguments: {aNode} , aNode children). ]
-		ifFalse: [ ^ result , (self 
-			tryToUseSpecialAttributesFor: ruleName 
-			asMessage: ruleMessageName on: aNode) ].
+	^ spaces , result
