@@ -1,5 +1,5 @@
 cascades
-testWithCommentAfterCascadeReceiver
+testCascadeWithCommentAfterReceiver
 
 	self
 		prettify: 'receiver"comment"message1;message2'

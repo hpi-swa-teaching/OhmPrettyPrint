@@ -1,5 +1,5 @@
-method header
-testWithCommentBeforeMethodHeader
+method comment
+testMethodWithCommentBeforeMethodHeader
 
 	self
 		prettify: '"comment"header'
