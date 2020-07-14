@@ -2,6 +2,6 @@ default
 testUnaryMessageWithMultipleComments
 
 	self
-		prettify: 'receiver' , String cr , '"comment1""comment2"' , String cr , 'message'
+		prettify: 'receiver"comment1""comment2"message'
 		startingFrom: #UnaryMessageSend
-		shouldEqual: 'receiver' , String cr , '"comment1"' , String cr , '"comment2"' , String cr , 'message'
+		shouldEqual: 'receiver "comment1" "comment2" message'

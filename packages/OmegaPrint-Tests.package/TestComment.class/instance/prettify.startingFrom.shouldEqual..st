@@ -1,4 +1,4 @@
-method header
+constants
 prettify: aString  startingFrom: aSymbol shouldEqual: anotherString
 
 	| result |
