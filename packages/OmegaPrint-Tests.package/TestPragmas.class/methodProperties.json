@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"startSymbol" : "TA 7/16/2020 16:44",
+		"testWithMultiplePragmas" : "TA 7/16/2020 16:46",
+		"testWithSinglePragma" : "TA 7/16/2020 16:44",
+		"testWithoutPragma" : "TA 7/16/2020 16:44" } }

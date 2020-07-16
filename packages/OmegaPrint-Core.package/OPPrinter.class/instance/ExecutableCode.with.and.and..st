@@ -1,7 +1,10 @@
 actions
 ExecutableCode: aNode with: aLocalVariableDeclarationList and: pragmas and: moreExecutableCode
 
-	| localVariableList |
-	localVariableList := self value: aLocalVariableDeclarationList.
-	localVariableList isEmpty ifFalse: [ localVariableList := localVariableList , self newline ].
-	^ localVariableList , (self value: moreExecutableCode)
+	| localVariablesResult pragmasResult codeResult |
+	localVariablesResult := self value: aLocalVariableDeclarationList.
+	pragmasResult := self value: pragmas.
+	codeResult := self value: moreExecutableCode.
+	localVariablesResult ifNotEmpty: [ localVariablesResult := localVariablesResult , self newline ].
+	pragmasResult ifNotEmpty: [ pragmasResult := pragmasResult , self newline ].
+	^ localVariablesResult , pragmasResult , codeResult

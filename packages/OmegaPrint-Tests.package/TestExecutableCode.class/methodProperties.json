@@ -3,5 +3,7 @@
 		 },
 	"instance" : {
 		"startSymbol" : "PS 7/5/2020 17:52",
+		"testWithVariablesWithPragmasWithCode" : "TA 7/16/2020 16:09",
 		"testWithVariablesWithoutPragmasWithCode" : "fau 7/10/2020 10:29",
+		"testWithoutVariablesWithPragmasWithCode" : "TA 7/16/2020 16:09",
 		"testWithoutVariablesWithoutPragmasWithCode" : "fau 7/10/2020 10:29" } }

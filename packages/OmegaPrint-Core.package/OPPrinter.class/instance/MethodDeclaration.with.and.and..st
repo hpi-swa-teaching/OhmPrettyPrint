@@ -1,10 +1,12 @@
 actions
 MethodDeclaration: aNode with: aMethodHeader and: pragmas and: executableCode
 
-	| comment header |
-	header := self defaultExpression: aMethodHeader.
+	| headerResult codeResult pragmasResult |
+	headerResult := self value: aMethodHeader.
 	self increaseIndentation.
-	comment := self
-		commentBetween: aMethodHeader
-		and: executableCode.
-	^ header , comment , self newline , (self value: executableCode)
+	pragmasResult := self value: pragmas.
+	codeResult := self value: executableCode.
+	pragmasResult ifNotEmpty: [ pragmasResult := String tab , pragmasResult ].
+	headerResult := headerResult , String cr , pragmasResult , self newline , codeResult.
+	self decreaseIndentation.
+	^ headerResult
