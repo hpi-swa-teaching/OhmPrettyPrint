@@ -2,5 +2,5 @@ base
 testWithPragmaKeyWithSinglePragmaLiteral
 
 	self
-		prettify: 'identifier: pragmaLiteral'
+		prettify: 'identifier:pragmaLiteral'
 		shouldEqual: 'identifier: pragmaLiteral'
