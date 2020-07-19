@@ -6,7 +6,9 @@ MethodDeclaration: aNode with: aMethodHeader and: pragmas and: executableCode
 	self increaseIndentation.
 	pragmasResult := self value: pragmas.
 	codeResult := self value: executableCode.
-	pragmasResult ifNotEmpty: [ pragmasResult := String tab , pragmasResult ].
-	headerResult := headerResult , String cr , pragmasResult , self newline , codeResult.
+	pragmasResult
+		ifEmpty: [ codeResult ifNotEmpty: [ pragmasResult := String cr ] ]
+		ifNotEmpty: [ pragmasResult := self newline , pragmasResult ].
+	codeResult ifNotEmpty: [ codeResult := self newline , codeResult ].
 	self decreaseIndentation.
-	^ headerResult
+	^ headerResult , pragmasResult , codeResult
