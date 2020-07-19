@@ -6,6 +6,4 @@ spaces: aNode with: spaces
 	spaces children do: [ :each | | isComment |
 		isComment := each children first ruleName = #comment.
 		isComment ifTrue: [ comments add: (self value: each) ] ].
-	^ comments
-		inject: ''
-		into: [ :a :each | a , each , ' ' ]
+	^ comments joinSeparatedBy: ' '
