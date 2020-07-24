@@ -7,4 +7,4 @@ ExecutableCode: aNode with: aLocalVariableDeclarationList and: pragmas and: more
 	codeResult := self value: moreExecutableCode.
 	localVariablesResult ifNotEmpty: [ localVariablesResult := localVariablesResult , self newline ].
 	pragmasResult ifNotEmpty: [ pragmasResult := pragmasResult , self newline ].
-	^ localVariablesResult , pragmasResult , codeResult
+	^ (localVariablesResult , pragmasResult , codeResult) withBlanksTrimmed
