@@ -12,4 +12,4 @@ lastComment: aNode
 	node := (OhmExplicitSendsSmalltalk
 		match: string
 		startingFrom: #spaces) cst.
-	^ self value: node
+	^ (self value: node) withBlanksTrimmed

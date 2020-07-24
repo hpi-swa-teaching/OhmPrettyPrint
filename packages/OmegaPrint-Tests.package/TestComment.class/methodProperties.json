@@ -9,10 +9,6 @@
 		"testMethodWithCommentAfterMethodHeader" : "PS 7/14/2020 09:43",
 		"testMethodWithCommentAfterStatement" : "PS 7/14/2020 10:03",
 		"testMethodWithCommentBeforeMethodHeader" : "PS 7/14/2020 09:43",
-		"testUnaryMessageWithMultilineComment" : "PS 7/12/2020 18:47",
-		"testUnaryMessageWithMultilineCommentWithMultipleNewlines" : "PS 7/14/2020 09:58",
-		"testUnaryMessageWithMultipleComments" : "PS 7/14/2020 10:01",
-		"testUnaryMessageWithMultipleCommentsWithMultipleNewlines" : "PS 7/14/2020 10:00",
-		"testUnaryMessageWithSingellineCommentWithMultipleNewlines" : "PS 7/14/2020 09:58",
-		"testUnaryMessageWithSinglelineComment" : "PS 7/12/2020 18:48",
-		"testWithCommentAfterMethodHeaderWithStatement" : "PS 7/12/2020 19:11" } }
+		"testStatementWithCommentBefore" : "fau 7/24/2020 09:43",
+		"testStatementsWithCommentInBetween" : "fau 7/24/2020 09:44",
+		"testWithCommentAfterMethodHeaderWithStatement" : "fau 7/24/2020 09:36" } }
