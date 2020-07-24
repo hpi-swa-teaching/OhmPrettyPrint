@@ -10,5 +10,4 @@ value: inputNode
 	[ spaces := self value: aNode skippedSpacesNodes ]
 		on: Error
 		do: [ spaces := '' ].
-	spaces ifNotEmpty: [ spaces := spaces , self newline ].
 	^ spaces , result
