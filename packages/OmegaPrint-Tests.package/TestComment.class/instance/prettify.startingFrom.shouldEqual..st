@@ -1,4 +1,4 @@
-constants
+testing
 prettify: aString  startingFrom: aSymbol shouldEqual: anotherString
 
 	| result |

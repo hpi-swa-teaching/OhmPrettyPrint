@@ -3,7 +3,6 @@
 		 },
 	"instance" : {
 		"prettify:startingFrom:shouldEqual:" : "PS 7/12/2020 18:32",
-		"startSymbol" : "PS 7/12/2020 19:08",
 		"testCascadeWithCommentAfterReceiver" : "PS 7/14/2020 09:41",
 		"testCascadeWithCommentInCascadedMessages" : "PS 7/14/2020 09:42",
 		"testMethodWithCommentAfterMethodHeader" : "PS 7/14/2020 09:43",

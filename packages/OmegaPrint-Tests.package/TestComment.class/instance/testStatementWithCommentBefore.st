@@ -1,4 +1,4 @@
-cascades
+statements
 testStatementWithCommentBefore
 
 	self
