@@ -2,8 +2,6 @@ actions
 spaces: aNode with: spaces
 
 	| comments |
-	comments := OrderedCollection new.
-	spaces children do: [ :each | | isComment |
-		isComment := each children first ruleName = #comment.
-		isComment ifTrue: [ comments add: (self value: each) ] ].
+	comments := spaces children select: [ :each | each children first ruleName = #comment ].
+	comments := comments collect: [ :each | self value: each ].
 	^ comments joinSeparatedBy: self newline
