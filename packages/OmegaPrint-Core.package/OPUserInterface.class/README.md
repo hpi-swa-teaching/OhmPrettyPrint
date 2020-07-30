@@ -1,0 +1,1 @@
+The OPUserInterface class installs a button in the codeHolder. It is only installed when the classes are initialized. Before again installing the button OPUserInterface checks whether the button is already installed.
