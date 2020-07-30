@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"evaluate:startingFrom:" : "fau 6/7/2020 20:25",
-		"format:in:notifying:" : "fau 6/7/2020 18:07" },
+		"format:in:notifying:" : "TA 7/30/2020 18:07" },
 	"instance" : {
 		"BinaryMessageSend:with:and:" : "PK 7/5/2020 18:44",
 		"BlockLiteralNormal:with:and:and:and:" : "TA 7/12/2020 18:19",
@@ -38,5 +38,5 @@
 		"lastComment:" : "fau 7/31/2020 17:14",
 		"newline" : "fau 5/26/2020 09:47",
 		"spaceBeforeCode:and:" : "7/17/2020 11:05:26",
-		"spaces:with:" : "fau 7/30/2020 17:11",
+		"spaces:with:" : "TA 7/30/2020 18:04",
 		"value:" : "fau 7/31/2020 16:59" } }
