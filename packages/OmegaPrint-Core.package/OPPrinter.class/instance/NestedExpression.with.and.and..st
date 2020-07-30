@@ -1,4 +1,4 @@
 actions
-NestedExpression: aNode with: aLiteral and: aStatement and: anotherLiteral
+NestedExpression: aNode with: aTerminal and: aStatement and: anotherTerminal
 
 	^ '(' , (self value: aStatement) , ')'

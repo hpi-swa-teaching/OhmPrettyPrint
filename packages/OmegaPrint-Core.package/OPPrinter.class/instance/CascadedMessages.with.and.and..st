@@ -1,5 +1,5 @@
 actions
-CascadedMessages: aNode with: aMessageChain and: aLiteral and: messageChains
+CascadedMessages: aNode with: aMessageChain and: aTerminal and: messageChains
 
 	| collection |
 	collection := messageChains children.
