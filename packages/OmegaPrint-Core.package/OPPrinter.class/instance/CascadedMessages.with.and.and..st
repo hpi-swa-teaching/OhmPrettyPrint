@@ -1,9 +1,7 @@
 actions
 CascadedMessages: aNode with: aMessageChain and: aLiteral and: messageChains
 
-	| result |
-	result := self value: aMessageChain.
-	result := messageChains children
-		inject: result
-		into: [ :string :each | string , ';' , self newline , (self value: each) ].
-	^ result
+	| collection |
+	collection := messageChains children.
+	collection 	addFirst: aMessageChain.
+	^ (collection collect: [ :each | self value: each ]) joinSeparatedBy: ';' , self newline
