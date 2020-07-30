@@ -1,11 +1,9 @@
 comments
 lastComment: aNode
 
-	| intervalStart intervalStartReversed intervalEnd string reversedSourceMap node |
-	reversedSourceMap := aNode sourceMap reversed.
-	intervalStartReversed := (reversedSourceMap findFirst: [ :each | each size > 1 ]) - 1.
-	intervalStart := (reversedSourceMap size - intervalStartReversed) + 1.
-	intervalEnd := reversedSourceMap size.
+	| intervalStart intervalEnd string node |
+	intervalStart := aNode interval end + 1.
+	intervalEnd := aNode interval stream size.
 	string := aNode interval stream contents
 		copyFrom: intervalStart
 		to: intervalEnd.
