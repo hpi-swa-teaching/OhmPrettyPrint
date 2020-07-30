@@ -11,6 +11,5 @@ MethodDeclaration: aNode with: aMethodHeader and: pragmas and: executableCode
 		ifNotEmpty: [ pragmasResult := self newline , pragmasResult ].
 	codeResult ifNotEmpty: [ codeResult := self newline , codeResult ].
 	comment := self lastComment: aNode.
-	comment ifNotEmpty: [ comment := self newline , comment ].
 	self decreaseIndentation.
 	^ headerResult , pragmasResult , codeResult , comment
