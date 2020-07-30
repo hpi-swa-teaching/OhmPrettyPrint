@@ -1,8 +1,8 @@
 comments
-lastComment: aNode
+firstComment: aNode
 
 	| interval comment |
-	interval := aNode interval end + 1 to: aNode interval stream size.
+	interval := 1 to: aNode interval start - 1.
 	comment := self extractCommentFrom: interval with: aNode.
 	comment ifEmpty: [ ^ '' ].
-	^ self newline , comment
+	^ comment , self newline
