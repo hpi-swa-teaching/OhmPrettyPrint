@@ -1,5 +1,5 @@
 actions
-LocalVariableDeclarationList: aNode with: aLiteral and: bindableIdentifiers and: anotherLiteral
+LocalVariableDeclarationList: aNode with: aTerminal and: bindableIdentifiers and: anotherTerminal
 
 	bindableIdentifiers children isEmpty
 		ifTrue: [ ^ '| |' ]

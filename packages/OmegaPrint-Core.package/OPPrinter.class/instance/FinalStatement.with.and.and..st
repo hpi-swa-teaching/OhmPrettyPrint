@@ -1,5 +1,5 @@
 actions
-FinalStatement: aNode with: aLiteral and: aStatement and: anotherLiteral
+FinalStatement: aNode with: aTerminal and: aStatement and: anotherTerminal
 	
 	| circumflexResult result |
 	circumflexResult := self value: aLiteral.

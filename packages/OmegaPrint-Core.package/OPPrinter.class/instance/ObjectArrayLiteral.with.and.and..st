@@ -1,5 +1,5 @@
 actions
-ObjectArrayLiteral: aNode with: aLiteral and: objectArrayLiteralElements and: anotherLiteral
+ObjectArrayLiteral: aNode with: aTerminal and: objectArrayLiteralElements and: anotherTerminal
 
 	| result resultElements elementValues |
 	result := '{'.

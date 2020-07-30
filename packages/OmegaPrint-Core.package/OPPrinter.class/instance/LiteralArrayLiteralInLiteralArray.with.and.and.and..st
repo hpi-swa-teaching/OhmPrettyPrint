@@ -1,5 +1,5 @@
 actions
-LiteralArrayLiteralInLiteralArray: aNode with: aLiteral and: anotherLiteral and: literalArrayLiteralElements and: yetAnotherLiteral
+LiteralArrayLiteralInLiteralArray: aNode with: aTerminal and: anotherTerminal and: literalArrayLiteralElements and: yetAnotherTerminal
 
 	| result resultElements |
 	result := '#('.

@@ -1,4 +1,4 @@
 actions
-Pragma: aNode with: aLiteral and: pragmaValues and: anotherLiteral
+Pragma: aNode with: aTerminal and: pragmaValues and: anotherTerminal
 
 	^ '<' , (self value: pragmaValues) , '>'
