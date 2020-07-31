@@ -1,15 +1,17 @@
 value
 value: inputNode
 
-	| aNode spaces result |
+	| aNode result |
 	inputNode isOhmMatchResult 
 		ifTrue: [ aNode := inputNode cst ]
 		ifFalse: [ aNode := inputNode ].
 	result := super value: aNode.
-	result ifEmpty: [ ^ '' ].
-	(self isNameOfSyntacticRule: aNode ruleName) ifFalse: [ ^ result ].
-	[ spaces := self value: aNode skippedSpacesNodes ]
-		on: Error
-		do: [ spaces := '' ].
-	spaces ifNotEmpty: [ spaces := spaces, self newline ].
-	^ spaces , result
+	(result isEmpty or: [ (self isNameOfSyntacticRule: aNode ruleName) not ]) ifTrue: [ ^ result ].
+
+	(self commentMap includes: aNode interval start)
+		ifTrue: [ ^ result ]
+		ifFalse: [ | spaces |
+			spaces := self value: aNode skippedSpacesNodes.
+			spaces ifNotEmpty: [ spaces := spaces , self newline.
+				self commentMap add: aNode interval start ].
+			^ spaces , result ]
