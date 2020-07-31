@@ -1,8 +1,9 @@
 actions
 MethodDeclaration: aNode with: aMethodHeader and: pragmas and: executableCode
 
-	| headerResult codeResult pragmasResult comment |
+	| headerResult codeResult pragmasResult last first |
 	headerResult := self value: aMethodHeader.
+	first := self firstComment: aNode.
 	self increaseIndentation.
 	pragmasResult := self value: pragmas.
 	codeResult := self value: executableCode.
@@ -10,6 +11,6 @@ MethodDeclaration: aNode with: aMethodHeader and: pragmas and: executableCode
 		ifEmpty: [ codeResult ifNotEmpty: [ pragmasResult := String cr ] ]
 		ifNotEmpty: [ pragmasResult := self newline , pragmasResult ].
 	codeResult ifNotEmpty: [ codeResult := self newline , codeResult ].
-	comment := self lastComment: aNode.
+	last := self lastComment: aNode.
 	self decreaseIndentation.
-	^ headerResult , pragmasResult , codeResult , comment
+	^ first , headerResult , pragmasResult , codeResult , last
