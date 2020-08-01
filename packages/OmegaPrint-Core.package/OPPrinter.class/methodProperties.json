@@ -3,7 +3,7 @@
 		"evaluate:startingFrom:" : "fau 6/7/2020 20:25",
 		"format:in:notifying:" : "TA 7/30/2020 18:07" },
 	"instance" : {
-		"BinaryMessageSend:with:and:" : "PK 8/2/2020 08:12",
+		"BinaryMessageSend:with:and:" : "fau 8/3/2020 20:26",
 		"BlockLiteralNormal:with:and:and:and:" : "TA 7/12/2020 18:19",
 		"ByteArrayLiteral:with:and:and:" : "fau 8/3/2020 20:02",
 		"CascadedMessages:with:and:and:" : "TA 7/31/2020 10:43",
@@ -11,8 +11,8 @@
 		"ExpressionBinaryCascade:with:and:" : "TA 7/29/2020 15:00",
 		"ExpressionOperandCascade:with:and:" : "TA 7/29/2020 15:00",
 		"ExpressionUnaryCascade:with:and:" : "TA 7/29/2020 15:00",
-		"FinalStatement:with:and:and:" : "fau 8/3/2020 20:17",
-		"KeywordMessageSend:with:and:" : "PK 7/7/2020 11:45",
+		"FinalStatement:with:and:and:" : "fau 8/3/2020 21:15",
+		"KeywordMessageSend:with:and:" : "PS 8/1/2020 09:29",
 		"LiteralArrayLiteral:with:and:and:" : "PS 7/30/2020 15:29",
 		"LiteralArrayLiteralInLiteralArray:with:and:and:and:" : "PS 7/30/2020 15:29",
 		"LocalVariableDeclarationList:with:and:and:" : "PS 7/30/2020 15:30",
@@ -38,6 +38,6 @@
 		"initialize" : "fau 7/31/2020 16:50",
 		"lastComment:" : "fau 7/31/2020 17:14",
 		"newline" : "fau 5/26/2020 09:47",
-		"spaceBeforeCode:and:" : "7/17/2020 11:05:26",
+		"spaceBeforeCode:and:" : "PS 8/1/2020 09:30",
 		"spaces:with:" : "TA 7/30/2020 18:04",
 		"value:" : "TA 8/1/2020 11:36" } }
