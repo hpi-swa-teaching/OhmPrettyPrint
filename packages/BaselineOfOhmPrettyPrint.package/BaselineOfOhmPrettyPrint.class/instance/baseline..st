@@ -4,7 +4,7 @@ baseline: spec
 	spec for: #common do: [
 		spec baseline: 'Ohm' with: [
 				spec
-					repository: 'github://hpi-swa/ohm-s:master/packages'].
+					repository: 'github://felixauringer/ohm-s:swt-submission/packages'].
 		spec 
 			package: 'OmegaPrint-Core' with: [spec requires: #('Ohm')];
 			package: 'OmegaPrint-Tests' with: [ spec requires: #('default') ];
