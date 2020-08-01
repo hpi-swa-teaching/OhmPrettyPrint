@@ -4,7 +4,7 @@ Being a OhmSourceRewriter, OPPrinter is an OhmAttribute and understands the meth
 
 To implement customized evaluation the method names are exactly as the rule names in the grammar. That is why many methods in OPPrinter start with a capital letter. Also there are as many arguments in each method as there are arguments in the rule of the grammar. The first argument is always the parent node. All rules that are not implemented explicitly are handled by the OhmSourceRewriter >> defaultExpression:.
 
-Some rules have subrules. While the node are named ruleName_subruleName the matching methods are named ruleNameSubruleName.
+Some rules have subrules. While the nodes are named ruleName_subruleName the matching methods are named ruleNameSubruleName.
 
 The OPPrinter offers an interface for the codeHolder with format:in:notifying.
 
