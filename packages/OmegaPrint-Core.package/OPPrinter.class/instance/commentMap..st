@@ -1,3 +1,4 @@
 accessing
-commentMap: anObject
-	commentMap := anObject
+commentMap: aBag
+
+	commentMap := aBag
