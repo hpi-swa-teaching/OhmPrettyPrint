@@ -1,8 +1,8 @@
 actions
 ByteArrayLiteral: aNode with: aTerminal and: integerTerminals and: anotherTerminal
 
-	| result resultLiterals |
+	| result resultTerminal |
 	result := '#['.
-	resultLiterals := self value: integerTerminals.
-	resultLiterals ifNotEmpty: [ result := result , ' ' , resultLiterals , ' ' ].
+	resultTerminal := self value: integerTerminals.
+	resultTerminal ifNotEmpty: [ result := result , ' ' , resultTerminal , ' ' ].
 	^ result , ']'
