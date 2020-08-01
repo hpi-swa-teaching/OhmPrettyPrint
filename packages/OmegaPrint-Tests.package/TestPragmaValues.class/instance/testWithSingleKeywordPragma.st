@@ -1,4 +1,4 @@
-base
+keyword
 testWithSingleKeywordPragma
 
 	self
