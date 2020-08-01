@@ -1,5 +1,5 @@
-base
-testWithUnrayPragma
+unary
+testWithUnaryPragma
 
 	self
 		prettify: 'identifier'
