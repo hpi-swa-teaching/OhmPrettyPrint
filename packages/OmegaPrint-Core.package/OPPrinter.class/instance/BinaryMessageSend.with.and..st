@@ -1,7 +1,8 @@
 actions
 BinaryMessageSend: aNode with: aBinaryMessageReceiver and: aBinaryMessage
 
-	| result |
+	| binaryMessageResult result |
+	binaryMessageResult := self value: aBinaryMessage.
 	result := self value: aBinaryMessageReceiver.
-	aBinaryMessage children first ifNotNil: [ result := result , ' ' , (self value: aBinaryMessage) ].
+	binaryMessageResult ifNotEmpty: [ result := result , ' ' , binaryMessageResult ].
 	^ result

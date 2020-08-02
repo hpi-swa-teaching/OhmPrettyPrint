@@ -1,8 +1,8 @@
 actions
 FinalStatement: aNode with: aLiteral and: aStatement and: anotherLiteral
 	
-	| circumflex |
-	circumflex := aLiteral children first.
-	circumflex isNil
-		ifTrue: [ ^ self value: aStatement ]
-		ifFalse: [ ^ circumflex , ' ' , (self value: aStatement) ]
+	| circumflexResult result |
+	circumflexResult := self value: aLiteral.
+	result := self value: aStatement.
+	circumflexResult ifNotEmpty: [ result := circumflexResult , ' ' , result ].
+	^ result
