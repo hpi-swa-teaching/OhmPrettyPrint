@@ -1,1 +1,1 @@
-The TestUI class holds all tests for the UI namely the button a codeholder. It tests its existence and the functionality.
+The TestUI class holds all tests for the UI namely the button and the codeholder. It tests the existence of the button and it's functionality.
