@@ -1,6 +1,6 @@
-An OPPrinter is a code prettifier. Therefor it uses Ohm/S as a parser. The OPPrinter is a OhmSourceRewriter and uses OhmExplicitSendsSmalltalk as grammar.
+An OPPrinter is a code prettifier. It uses Ohm/S as a parser. The OPPrinter is an OhmSourceRewriter and uses OhmExplicitSendsSmalltalk as grammar.
 
-Being a OhmSourceRewriter, OPPrinter is an OhmAttribute and understands the method value:. With this method one can traverse a CST and evaluate the OhmMatchResult.
+Being an OhmSourceRewriter, OPPrinter inherits from OhmAttribute and due to that understands the method value:. With this method one can traverse a CST and evaluate the OhmMatchResult.
 
 To implement customized evaluation the method names are exactly as the rule names in the grammar. That is why many methods in OPPrinter start with a capital letter. Also there are as many arguments in each method as there are arguments in the rule of the grammar. The first argument is always the parent node. All rules that are not implemented explicitly are handled by the OhmSourceRewriter >> defaultExpression:.
 
