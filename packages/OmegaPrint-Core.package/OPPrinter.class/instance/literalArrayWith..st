@@ -1,4 +1,4 @@
-actions
+literal array
 literalArrayWith: literalArrayLiteralElements
 
 	| result resultElements |
