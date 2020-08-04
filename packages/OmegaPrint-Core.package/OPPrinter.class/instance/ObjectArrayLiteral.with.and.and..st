@@ -1,10 +1,10 @@
 actions
 ObjectArrayLiteral: aNode with: aTerminal and: objectArrayLiteralElements and: anotherTerminal
 
-	| result resultElements |
-	result := '{'.
-	resultElements := self
+	| result |
+	result := self
 		join: objectArrayLiteralElements children
 		separatedBy: ' . '.
-	resultElements ifNotEmpty: [ result := result , ' ' , resultElements , ' ' ].
-	^ result , '}'
+	result
+		ifEmpty: [ ^ '{}' ]
+		ifNotEmpty: [ ^ '{ ' , result , ' }' ]

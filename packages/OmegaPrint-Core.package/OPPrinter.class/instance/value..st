@@ -14,5 +14,5 @@ value: inputNode
 			spaces := self value: aNode skippedSpacesNodes.
 			spaces ifNotEmpty: [ self commentMap add: aNode interval start ].
 			^ self
-				joinValues: { spaces . result }
+				join: { spaces . result }
 				separatedBy: self newline ]

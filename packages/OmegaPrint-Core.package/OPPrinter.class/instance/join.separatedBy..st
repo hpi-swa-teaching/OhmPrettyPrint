@@ -1,8 +1,9 @@
 collections
 join: aCollection separatedBy: aString
 
-	| values |
-	values := aCollection collect: [ :each | self value: each ].
-	^ self
-		joinValues: values
-		separatedBy: aString
+	| values validValues |
+	values := aCollection collect: [ :each | each isString
+		ifTrue: [ each ]
+		ifFalse: [ self value: each ] ].
+	validValues := values reject: [ :each | each isEmpty ].
+	^ validValues joinSeparatedBy: aString

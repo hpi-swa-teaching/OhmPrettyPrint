@@ -1,15 +1,15 @@
 actions
 MethodDeclaration: aNode with: aMethodHeader and: pragmas and: executableCode
 
-	| headerResult codeResult pragmasResult comment |
-	headerResult := self value: aMethodHeader.
+	| result resultHeader resultPragmas resultCode comment |
+	resultHeader := self value: aMethodHeader.
 	self increaseIndentation.
-	pragmasResult := self value: pragmas.
-	codeResult := self value: executableCode.
-	pragmasResult
-		ifEmpty: [ codeResult ifNotEmpty: [ pragmasResult := String cr ] ]
-		ifNotEmpty: [ pragmasResult := self newline , pragmasResult ].
-	codeResult ifNotEmpty: [ codeResult := self newline , codeResult ].
+	resultPragmas := self value: pragmas.
+	resultCode := self value: executableCode.
+	(resultPragmas isEmpty and: resultCode notEmpty) ifTrue: [ resultHeader := resultHeader , String cr ].
 	comment := self lastComment: aNode.
+	result := self
+		join: { resultHeader . resultPragmas . resultCode . comment }
+		separatedBy: self newline.
 	self decreaseIndentation.
-	^ headerResult , pragmasResult , codeResult , comment
+	^ result
