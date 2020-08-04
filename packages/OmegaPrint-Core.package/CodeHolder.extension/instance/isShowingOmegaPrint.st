@@ -1,4 +1,4 @@
 *OmegaPrint-Core
 isShowingOmegaPrint
 
-	^ contentsSymbol == #omegaPrint
+	^ contentsSymbol = #omegaPrint
