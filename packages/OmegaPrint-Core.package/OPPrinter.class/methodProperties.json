@@ -3,7 +3,7 @@
 		"evaluate:startingFrom:" : "fau 6/7/2020 20:25",
 		"format:in:notifying:" : "TA 7/30/2020 18:07" },
 	"instance" : {
-		"BinaryMessageSend:with:and:" : "fau 8/3/2020 20:26",
+		"BinaryMessageSend:with:and:" : "fau 8/4/2020 11:07",
 		"BlockLiteralNormal:with:and:and:and:" : "PS 8/4/2020 07:05",
 		"ByteArrayLiteral:with:and:and:" : "fau 8/3/2020 20:02",
 		"CascadedMessages:with:and:and:" : "TA 7/31/2020 10:43",
@@ -36,9 +36,13 @@
 		"indentation" : "fau 5/26/2020 10:39",
 		"indentation:" : "fau 5/26/2020 10:39",
 		"initialize" : "fau 7/31/2020 16:50",
+		"join:separatedBy:" : "fau 8/4/2020 11:07",
+		"joinSeparatedByNewline:" : "fau 8/4/2020 11:07",
+		"joinValues:separatedBy:" : "fau 8/4/2020 11:07",
+		"joinValuesSeparatedByNewline:" : "fau 8/4/2020 11:08",
 		"lastComment:" : "fau 7/31/2020 17:14",
 		"literalArrayWith:" : "PK 8/2/2020 19:48",
 		"newline" : "fau 5/26/2020 09:47",
 		"spaceBeforeCode:and:" : "PS 8/1/2020 09:30",
 		"spaces:with:" : "PS 8/4/2020 07:06",
-		"value:" : "TA 8/1/2020 11:36" } }
+		"value:" : "fau 8/4/2020 11:08" } }
