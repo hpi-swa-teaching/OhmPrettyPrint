@@ -1,13 +1,13 @@
 actions
 KeywordMessageSend: aNode with: aKeywordMessageReceiver and: keywordMessageSegments
 
-	| result resultSegments |
-	result := self value: aKeywordMessageReceiver.
-	keywordMessageSegments children ifEmpty: [ ^ result ].
-	keywordMessageSegments numberOfChildren = 1 ifTrue: [ ^ result , ' ' , (self value: keywordMessageSegments firstChild) ].
+	| separator result |
 	self increaseIndentation.
-	resultSegments := self newline , (self
-		join: keywordMessageSegments children
-		separatedBy: self newline).
+	keywordMessageSegments numberOfChildren < 2
+		ifTrue: [ separator := String space ]
+		ifFalse: [ separator := self newline ].
 	self decreaseIndentation.
-	^ result , resultSegments
+	result := self
+		join: { aKeywordMessageReceiver } , keywordMessageSegments children
+		separatedBy: separator.
+	^ result
