@@ -6,7 +6,9 @@ BlockLiteralNormal: aNode with: aTerminal and: blockArguments and: executableCod
 	self increaseIndentation.
 	resultArguments := self value: blockArguments.
 	resultCode := self value: executableCode.
-	resultArguments ifNotEmpty: [ result := result , ' ' , resultArguments ].
+	result := self
+		joinValues: { result . resultArguments }
+		separatedBy: ' '.
 	space := self
 		spaceBeforeCode: executableCode
 		and: blockArguments.
