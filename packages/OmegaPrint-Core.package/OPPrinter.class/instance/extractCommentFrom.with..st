@@ -2,7 +2,7 @@ comments
 extractCommentFrom: anInterval with: aNode
 
 	| string node |
-	string := aNode interval stream contents
+	string := aNode intervalStreamContents
 		copyFrom: anInterval start
 		to: anInterval stop.
 	node := (OhmExplicitSendsSmalltalk

@@ -4,7 +4,7 @@ KeywordMessageSend: aNode with: aKeywordMessageReceiver and: keywordMessageSegme
 	| result |
 	result := self value: aKeywordMessageReceiver.
 	keywordMessageSegments children isEmpty ifTrue: [ ^ result ].
-	keywordMessageSegments children size == 1 ifTrue: [ ^ result , ' ' , (self value: keywordMessageSegments firstChild) ].
+	keywordMessageSegments childrenNumber == 1 ifTrue: [ ^ result , ' ' , (self value: keywordMessageSegments firstChild) ].
 	self increaseIndentation.
 	keywordMessageSegments children do: [ :segment | result := result , self newline , (self value: segment) ].
 	self decreaseIndentation.
