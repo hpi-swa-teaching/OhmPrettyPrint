@@ -1,5 +1,5 @@
 actions
-BlockLiteralNormal: aNode with: aLiteral and: blockArguments and: executableCode and: anotherLiteral
+BlockLiteralNormal: aNode with: aTerminal and: blockArguments and: executableCode and: anotherTerminal
 
 	| result resultArguments resultCode space |
 	result := '['.
