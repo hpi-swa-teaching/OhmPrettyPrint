@@ -1,4 +1,6 @@
 actions
 BinaryMessageSend: aNode with: aBinaryMessageReceiver and: aBinaryMessage
 
-	^ self joinSeparatedBySpace: { aBinaryMessageReceiver . aBinaryMessage }
+	^ self
+		join: { aBinaryMessageReceiver . aBinaryMessage }
+		separatedBy: ' '

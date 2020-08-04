@@ -1,4 +1,6 @@
 actions
 ExecutableCode: aNode with: aLocalVariableDeclarationList and: pragmas and: moreExecutableCode
 
-	^ self joinSeparatedByNewline: { aLocalVariableDeclarationList . pragmas . moreExecutableCode }
+	^ self
+		join: { aLocalVariableDeclarationList . pragmas . moreExecutableCode }
+		separatedBy: self newline
