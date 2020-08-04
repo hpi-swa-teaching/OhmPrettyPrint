@@ -1,4 +1,6 @@
 actions
 Pragmas: aNode with: pragmas
 
-	^ self joinSeparatedByNewline: pragmas children
+	^ self
+		join: pragmas children
+		separatedBy: self newline

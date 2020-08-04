@@ -13,4 +13,6 @@ value: inputNode
 		ifFalse: [ | spaces |
 			spaces := self value: aNode skippedSpacesNodes.
 			spaces ifNotEmpty: [ self commentMap add: aNode interval start ].
-			^ self joinValuesSeparatedByNewline: { spaces . result } ]
+			^ self
+				joinValues: { spaces . result }
+				separatedBy: self newline ]
