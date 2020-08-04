@@ -1,7 +1,7 @@
 SmalltalkCISpec {
  #loading : [
   SCIMetacelloLoadSpec {
-   #baseline : 'OhmPrettyPrint',
+   #baseline : 'OmegaPrint',
    #directory : 'packages',
    #platforms : [ #squeak ],
    #load : [ 'tests' ],
