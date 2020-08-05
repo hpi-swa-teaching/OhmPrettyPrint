@@ -1,9 +1,7 @@
 literal array
 literalArrayWith: literalArrayLiteralElements
 
-	| result |
-	result := self value: literalArrayLiteralElements.
 	^ self
-		include: result
+		include: (self value: literalArrayLiteralElements)
 		between: '#('
 		and: ')'
