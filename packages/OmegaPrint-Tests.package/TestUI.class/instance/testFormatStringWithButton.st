@@ -5,7 +5,7 @@ testFormatStringWithButton
 	method := self class
 		ultimateSourceCodeAt: #exampleMethod
 		ifAbsent: [ ^ 'error' ].
-	result := OPPrinter
+	result := OPEvaluator
 		evaluate: method
 		startingFrom: #MethodDeclaration.
 	browser := Browser new.
