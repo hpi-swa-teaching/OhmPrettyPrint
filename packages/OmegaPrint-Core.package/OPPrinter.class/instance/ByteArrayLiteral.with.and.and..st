@@ -3,6 +3,7 @@ ByteArrayLiteral: aNode with: aTerminal and: integerLiterals and: anotherTermina
 
 	| result |
 	result := self value: integerLiterals.
-	result
-		ifEmpty: [ ^ '#[]' ]
-		ifNotEmpty: [ ^ '#[ ' , result , ' ]' ]
+	^ self
+		include: result
+		between: '#['
+		and: ']'
