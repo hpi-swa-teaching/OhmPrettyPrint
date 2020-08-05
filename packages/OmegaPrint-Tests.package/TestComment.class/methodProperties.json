@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"prettify:startingFrom:shouldEqual:" : "fau 8/5/2020 13:41",
+		"prettify:startingFrom:shouldEqual:" : "fau 8/5/2020 21:45",
 		"testCascadeWithCommentAfterReceiver" : "PS 7/14/2020 09:41",
 		"testCascadeWithCommentInCascadedMessages" : "PS 7/14/2020 09:42",
 		"testMethodWithCommentAfterMethodHeader" : "fau 8/5/2020 09:14",

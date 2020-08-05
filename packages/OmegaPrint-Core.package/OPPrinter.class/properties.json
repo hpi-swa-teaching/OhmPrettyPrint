@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "OPEvaluator",
+	"name" : "OPPrinter",
 	"pools" : [
 		 ],
 	"super" : "Object",
