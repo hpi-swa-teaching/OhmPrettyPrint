@@ -10,5 +10,5 @@
 	"name" : "OPUserInterface",
 	"pools" : [
 		 ],
-	"super" : "OhmSmalltalkSourceRewriter",
+	"super" : "Object",
 	"type" : "normal" }
