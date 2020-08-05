@@ -2,8 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"isModeStyleable" : "PK 6/1/2020 18:27",
-		"isShowingOmegaPrint" : "fau 8/4/2020 10:22",
+		"isModeStyleable" : "fau 8/5/2020 13:32",
 		"omegaPrintString" : "fau 8/4/2020 10:22",
-		"sourceStringPrettifiedAndDiffed" : "PK 6/3/2020 13:21",
-		"toggleOmegaPrint" : "PS 8/4/2020 07:04" } }
+		"showingOmegaPrint" : "fau 8/5/2020 13:33",
+		"sourceStringPrettifiedAndDiffed" : "fau 8/5/2020 13:33",
+		"toggleOmegaPrint" : "fau 8/5/2020 13:35" } }

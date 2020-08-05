@@ -1,0 +1,15 @@
+{
+	"category" : "OmegaPrint-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"indentation",
+		"commentMap" ],
+	"name" : "OPSourceRewriter",
+	"pools" : [
+		 ],
+	"super" : "OhmSourceRewriter",
+	"type" : "normal" }

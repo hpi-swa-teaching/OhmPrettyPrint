@@ -1,4 +1,4 @@
-blocks
+helpers
 spaceInBlockWith: resultArguments and: resultVariables and: resultCode
 
 	| lines |

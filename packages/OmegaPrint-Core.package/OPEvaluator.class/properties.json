@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"indentation",
-		"commentMap" ],
-	"name" : "OPPrinter",
+		 ],
+	"name" : "OPEvaluator",
 	"pools" : [
 		 ],
-	"super" : "OhmSourceRewriter",
+	"super" : "Object",
 	"type" : "normal" }

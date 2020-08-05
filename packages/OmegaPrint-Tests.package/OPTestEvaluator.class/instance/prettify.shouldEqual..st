@@ -2,7 +2,7 @@ testing
 prettify: aString shouldEqual: anotherString
 
 	| result |
-	result := OPPrinter
+	result := OPEvaluator
 		evaluate: aString
 		startingFrom: self startSymbol.
 	self
