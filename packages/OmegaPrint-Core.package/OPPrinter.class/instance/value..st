@@ -1,4 +1,4 @@
-value
+evaluation
 value: aNode
 
 	| result isLexicalRule |
