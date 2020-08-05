@@ -1,5 +1,5 @@
-comments
-commentAtEndOfSourceMap: aNode
+initialize-release
+commentNodeAtEndOfSourceMap: aNode
 
 	| reversedSourceMap intervalStartReversed intervalStart interval |
 	reversedSourceMap := aNode sourceMap reversed.
@@ -7,5 +7,5 @@ commentAtEndOfSourceMap: aNode
 	intervalStart := (reversedSourceMap size - intervalStartReversed) + 1.
 	interval := intervalStart to: reversedSourceMap size.
 	^ self
-		extractCommentFrom: interval
+		extractCommentNodesFrom: interval
 		with: aNode

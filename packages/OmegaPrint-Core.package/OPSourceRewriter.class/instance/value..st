@@ -7,5 +7,5 @@ value: aNode
 	(result isEmpty or: [ isLexicalRule ])
 		ifTrue: [ ^ result ]
 		ifFalse: [ ^ self
-			valueWithComment: aNode
-			with: result ]
+			join: (self commentExtractor commentNodesBefore: aNode) , { result }
+			separatedBy: self indentation newline ]
