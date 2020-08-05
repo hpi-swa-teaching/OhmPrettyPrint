@@ -1,0 +1,14 @@
+{
+	"category" : "OmegaPrint-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TestBinaryMessageSend",
+	"pools" : [
+		 ],
+	"super" : "OPTestEvaluator",
+	"type" : "normal" }

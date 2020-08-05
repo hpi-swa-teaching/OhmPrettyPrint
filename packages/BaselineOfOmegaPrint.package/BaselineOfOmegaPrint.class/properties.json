@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfOmegaPrint",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfOmegaPrint",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }

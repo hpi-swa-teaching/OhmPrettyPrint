@@ -1,0 +1,14 @@
+{
+	"category" : "OmegaPrint-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TestCascadedMessages",
+	"pools" : [
+		 ],
+	"super" : "OPTestEvaluator",
+	"type" : "normal" }

@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"startSymbol" : "fau 7/12/2020 20:32",
+		"testWithMultipleLiteralArrayLiteralElements" : "fau 7/12/2020 20:33",
+		"testWithSingleLiteralArrayLiteralElement" : "fau 7/12/2020 20:33",
+		"testWithoutLiteralArrayLiteralElement" : "fau 7/12/2020 20:33" } }

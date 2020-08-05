@@ -1,0 +1,14 @@
+{
+	"category" : "OmegaPrint-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TestUnaryMethodHeader",
+	"pools" : [
+		 ],
+	"super" : "OPTestEvaluator",
+	"type" : "normal" }

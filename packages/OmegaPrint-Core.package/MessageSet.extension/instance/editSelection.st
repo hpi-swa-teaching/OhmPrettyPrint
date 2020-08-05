@@ -1,0 +1,4 @@
+*OmegaPrint-Core
+editSelection
+
+	^ editSelection

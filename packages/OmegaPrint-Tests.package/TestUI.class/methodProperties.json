@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"exampleMethod" : "TA 7/30/2020 18:08",
+		"testAboutToStyleImplemented" : "fau 7/10/2020 11:53",
+		"testCodeHolderOmegaPrintNotStyleable" : "PK 7/7/2020 12:10",
+		"testCodeHolderOmegaPrintStyleable" : "TA 6/25/2020 20:59",
+		"testExistenceButton" : "PS 7/5/2020 18:56",
+		"testFormatString" : "TA 6/25/2020 20:53",
+		"testFormatStringWithButton" : "TA 6/25/2020 20:51",
+		"testOmegaPrintQuint" : "fau 8/4/2020 10:23",
+		"testOmegaPrintStringNegative" : "PS 7/7/2020 12:00",
+		"testOmegaPrintStringPositive" : "PS 7/7/2020 12:01",
+		"testRepeatAddButton" : "fau 6/28/2020 18:19",
+		"testToggleOmegaPrint" : "fau 7/10/2020 11:53" } }

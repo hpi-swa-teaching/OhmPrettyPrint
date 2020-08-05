@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"startSymbol" : "TA 7/12/2020 18:30",
+		"testWithMultipleAssignmentOperationsWithExpression" : "TA 7/12/2020 18:34",
+		"testWithSingleAssignmentOperationWithExpression" : "TA 7/12/2020 18:33",
+		"testWithoutAssignmentOperationWithExpression" : "TA 7/12/2020 18:34" } }
