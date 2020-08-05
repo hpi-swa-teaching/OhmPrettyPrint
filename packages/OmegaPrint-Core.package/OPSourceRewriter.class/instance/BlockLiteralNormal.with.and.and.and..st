@@ -2,7 +2,7 @@ actions
 BlockLiteralNormal: aNode with: aTerminal and: blockArguments and: executableCode and: anotherTerminal
 
 	| result resultArguments resultVariables resultCode separator |
-	self increaseIndentation.
+	self indentation increase.
 	resultArguments := self value: blockArguments.
 	resultCode := self value: executableCode.
 	resultVariables := self value: executableCode firstChild.
@@ -13,7 +13,7 @@ BlockLiteralNormal: aNode with: aTerminal and: blockArguments and: executableCod
 	result := self
 		join: { resultArguments . resultCode }
 		separatedBy: separator.
-	self decreaseIndentation.
+	self indentation decrease.
 	^ self
 		include: result
 		between: '['

@@ -8,4 +8,4 @@ valueWithComment: aNode with: aString
 			spaces ifNotEmpty: [ self commentMap add: aNode interval start ].
 			^ self
 				join: { spaces . aString }
-				separatedBy: self newline ]
+				separatedBy: self indentation newline ]

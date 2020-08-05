@@ -3,5 +3,5 @@ initialize
 
 	super initialize.
 	self
-		indentation: 0;
+		indentation: OPIndentationState new;
 		commentMap: Bag new

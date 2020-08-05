@@ -3,4 +3,4 @@ Pragmas: aNode with: pragmas
 
 	^ self
 		join: pragmas children
-		separatedBy: self newline
+		separatedBy: self indentation newline
