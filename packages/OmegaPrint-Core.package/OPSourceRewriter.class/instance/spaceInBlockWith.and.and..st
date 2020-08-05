@@ -7,5 +7,5 @@ spaceInBlockWith: resultArguments and: resultVariables and: resultCode
 	(lines > 1
 		and: [ resultArguments notEmpty ]
 		and: [ resultVariables isEmpty ])
-		ifTrue: [ ^ self indentation newline ]
+		ifTrue: [ ^ self newline ]
 		ifFalse: [ ^ String space ]

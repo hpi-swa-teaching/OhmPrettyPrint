@@ -3,4 +3,4 @@ ExecutableCode: aNode with: aLocalVariableDeclarationList and: pragmas and: more
 
 	^ self
 		join: { aLocalVariableDeclarationList . pragmas . moreExecutableCode }
-		separatedBy: self indentation newline
+		separatedBy: self newline

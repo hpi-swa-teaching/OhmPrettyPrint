@@ -3,5 +3,5 @@ initialize
 
 	super initialize.
 	self
-		indentation: OPIndentationState new;
+		indentation: 0;
 		commentExtractor: OPCommentExtractor new
