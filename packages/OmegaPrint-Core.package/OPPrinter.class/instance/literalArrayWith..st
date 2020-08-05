@@ -3,6 +3,7 @@ literalArrayWith: literalArrayLiteralElements
 
 	| result |
 	result := self value: literalArrayLiteralElements.
-	result
-		ifEmpty: [ ^ '#()' ]
-		ifNotEmpty: [ ^ '#( ' , result , ' )' ]
+	^ self
+		include: result
+		between: '#('
+		and: ')'

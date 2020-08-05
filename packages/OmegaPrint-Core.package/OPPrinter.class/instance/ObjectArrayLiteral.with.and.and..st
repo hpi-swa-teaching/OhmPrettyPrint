@@ -5,6 +5,7 @@ ObjectArrayLiteral: aNode with: aTerminal and: objectArrayLiteralElements and: a
 	result := self
 		join: objectArrayLiteralElements children
 		separatedBy: ' . '.
-	result
-		ifEmpty: [ ^ '{}' ]
-		ifNotEmpty: [ ^ '{ ' , result , ' }' ]
+	^ self
+		include: result
+		between: '{'
+		and: '}'
