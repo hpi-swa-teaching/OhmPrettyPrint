@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"commentMap" : "fau 8/5/2020 14:05",
+		"commentMap:" : "fau 8/5/2020 14:05",
+		"commentNodeAfterSourceMap:" : "fau 8/5/2020 14:43",
+		"commentNodeAtEndOfSourceMap:" : "fau 8/5/2020 14:43",
+		"commentNodesAfterMethod:" : "fau 8/5/2020 15:01",
+		"commentNodesBefore:" : "fau 8/5/2020 15:17",
+		"commentNodesIn:" : "fau 8/5/2020 15:20",
+		"extractCommentNodesFrom:with:" : "fau 8/5/2020 15:00",
+		"extractWhitespaceFrom:with:" : "fau 8/5/2020 14:49",
+		"initialize" : "fau 8/5/2020 14:06" } }

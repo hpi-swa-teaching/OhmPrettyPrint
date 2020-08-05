@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"indentation",
-		"commentExtractor" ],
-	"name" : "OPSourceRewriter",
+		"commentMap" ],
+	"name" : "OPCommentExtractor",
 	"pools" : [
 		 ],
-	"super" : "OhmSourceRewriter",
+	"super" : "Object",
 	"type" : "normal" }

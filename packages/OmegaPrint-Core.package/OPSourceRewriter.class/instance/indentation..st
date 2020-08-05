@@ -1,4 +1,4 @@
 accessing
-indentation: aNumber
+indentation: anOPIndentationState
 
-	indentation := aNumber
+	indentation := anOPIndentationState
