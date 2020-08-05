@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"evaluate:startingFrom:" : "fau 6/7/2020 20:25",
+		"evaluate:startingFrom:" : "fau 8/5/2020 10:29",
 		"format:in:notifying:" : "TA 7/30/2020 18:07" },
 	"instance" : {
 		"BinaryMessageSend:with:and:" : "TA 8/4/2020 13:12",
@@ -31,16 +31,17 @@
 		"commentMap:" : "fau 8/1/2020 10:09",
 		"decreaseIndentation" : "fau 5/26/2020 09:46",
 		"defaultExpression:" : "fau 8/4/2020 22:48",
-		"extractCommentFrom:with:" : "PS 8/4/2020 06:24",
+		"extractCommentFrom:with:" : "fau 8/5/2020 10:30",
 		"include:between:and:" : "fau 8/5/2020 08:26",
 		"increaseIndentation" : "fau 5/26/2020 09:46",
 		"indentation" : "fau 5/26/2020 10:39",
 		"indentation:" : "fau 5/26/2020 10:39",
 		"initialize" : "fau 7/31/2020 16:50",
 		"join:separatedBy:" : "fau 8/4/2020 22:11",
-		"lastComment:" : "fau 8/4/2020 21:46",
+		"lastComment:" : "fau 8/5/2020 10:03",
 		"literalArrayWith:" : "fau 8/5/2020 09:49",
-		"newline" : "fau 5/26/2020 09:47",
+		"newline" : "fau 8/5/2020 10:20",
 		"spaceInBlockWith:and:and:" : "fau 8/5/2020 07:36",
-		"spaces:with:" : "fau 8/4/2020 21:06",
-		"value:" : "fau 8/4/2020 22:38" } }
+		"spaces:with:" : "fau 8/5/2020 09:52",
+		"value:" : "fau 8/5/2020 10:34",
+		"valueWithComment:with:" : "fau 8/5/2020 10:36" } }

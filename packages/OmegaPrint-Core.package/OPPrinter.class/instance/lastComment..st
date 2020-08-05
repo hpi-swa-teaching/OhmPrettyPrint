@@ -1,7 +1,4 @@
 comments
 lastComment: aNode
 
-	| comment |
-	comment := self commentAtEndOfSourceMap: aNode.
-	comment := comment , (self commentAfterSourceMap: aNode).
-	^ comment
+	^ (self commentAtEndOfSourceMap: aNode) , (self commentAfterSourceMap: aNode)
