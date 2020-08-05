@@ -1,0 +1,14 @@
+{
+	"category" : "OmegaPrint-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"tabDepth" ],
+	"name" : "OPIndentationState",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,4 @@
+accessing
+tabDepth
+
+	^ tabDepth
