@@ -4,4 +4,4 @@ testMethodWithCommentAfterMethodHeader
 	self
 		prettify: 'header"comment"'
 		startingFrom: #MethodDeclaration
-		shouldEqual: 'header' , String cr , String tab , '"comment"'
+		shouldEqual: 'header' , String cr , String cr , String tab , '"comment"'
