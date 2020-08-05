@@ -1,5 +1,5 @@
-initialize-release
-commentNodeAtEndOfSourceMap: aNode
+after method
+commentNodesAtEndOfSourceMap: aNode
 
 	| reversedSourceMap intervalStartReversed intervalStart interval |
 	reversedSourceMap := aNode sourceMap reversed.

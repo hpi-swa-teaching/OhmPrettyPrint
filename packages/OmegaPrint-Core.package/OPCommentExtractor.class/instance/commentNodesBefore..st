@@ -1,9 +1,8 @@
-initialize-release
+before node
 commentNodesBefore: aNode
 
-	(self commentMap includes: aNode interval start)
-		ifTrue: [ ^ {} ]
-		ifFalse: [ | commentNodes |
-			commentNodes := self commentNodesIn: aNode skippedSpacesNodes.
-			commentNodes ifNotEmpty: [ self commentMap add: aNode interval start ].
-			^ commentNodes ]
+	| commentNodes |
+	(self commentMap includes: aNode interval start) ifTrue: [ ^ {} ].
+	commentNodes := self collectCommentNodes: aNode skippedSpacesNodes.
+	commentNodes ifNotEmpty: [ self commentMap add: aNode interval start ].
+	^ commentNodes
