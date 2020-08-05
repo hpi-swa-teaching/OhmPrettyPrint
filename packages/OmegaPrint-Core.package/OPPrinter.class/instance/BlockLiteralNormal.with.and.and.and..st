@@ -4,11 +4,12 @@ BlockLiteralNormal: aNode with: aTerminal and: blockArguments and: executableCod
 	| result resultArguments resultVariables resultCode separator |
 	self increaseIndentation.
 	resultArguments := self value: blockArguments.
-	resultVariables := self value: executableCode firstChild.
 	resultCode := self value: executableCode.
+	resultVariables := self value: executableCode firstChild.
 	separator := self
-		spaceBeforeCode: executableCode
-		and: blockArguments.
+		spaceInBlockWith: resultArguments
+		and: resultVariables
+		and: resultCode.
 	result := self
 		join: { resultArguments . resultCode }
 		separatedBy: separator.
