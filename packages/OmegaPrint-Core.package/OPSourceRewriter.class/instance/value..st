@@ -8,4 +8,4 @@ value: aNode
 		ifTrue: [ ^ result ]
 		ifFalse: [ ^ self
 			join: (self commentExtractor commentNodesBefore: aNode) , { result }
-			separatedBy: self indentation newline ]
+			separatedBy: self newline ]

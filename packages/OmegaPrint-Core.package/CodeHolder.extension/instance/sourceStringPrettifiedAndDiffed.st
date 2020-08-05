@@ -15,7 +15,7 @@ sourceStringPrettifiedAndDiffed
 	(#(#prettyPrint #prettyDiffs) includes: contentsSymbol) 
 		ifTrue: [ prettifierClass := class prettyPrinterClass ].
 	(#omegaPrint = contentsSymbol)
-		ifTrue: [ prettifierClass := OPEvaluator ].
+		ifTrue: [ prettifierClass := OPPrinter ].
 	prettifierClass ifNotNil:
 		[ sourceString := prettifierClass
 							format: sourceString

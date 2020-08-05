@@ -1,4 +1,6 @@
 indentation
 newline
 
-	^ String cr , (String new: self indentation withAll: Character tab)
+	^ String cr , (String
+		new: self indentation
+		withAll: Character tab)
