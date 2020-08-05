@@ -1,4 +1,4 @@
-initialize-release
+extraction
 extractCommentNodesFrom: anInterval with: aNode
 
 	| spacesNode |
@@ -7,4 +7,4 @@ extractCommentNodesFrom: anInterval with: aNode
 			extractWhitespaceFrom: anInterval
 			with: aNode)
 		startingFrom: #spaces) cst.
-	^ self commentNodesIn: spacesNode
+	^ self collectCommentNodes: spacesNode

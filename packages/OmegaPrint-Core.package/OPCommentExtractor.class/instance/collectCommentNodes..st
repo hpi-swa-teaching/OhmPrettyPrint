@@ -1,5 +1,5 @@
-initialize-release
-commentNodesIn: aNode
+extraction
+collectCommentNodes: aNode
 
 	| spaceNodes |
 	spaceNodes := aNode firstChild children.

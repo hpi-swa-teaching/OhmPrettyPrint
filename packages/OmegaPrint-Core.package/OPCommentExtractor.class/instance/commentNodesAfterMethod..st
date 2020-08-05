@@ -1,4 +1,4 @@
-initialize-release
+after method
 commentNodesAfterMethod: aNode
 
-	^ (self commentNodeAtEndOfSourceMap: aNode) , (self commentNodeAfterSourceMap: aNode)
+	^ (self commentNodesAtEndOfSourceMap: aNode) , (self commentNodesAfterSourceMap: aNode)

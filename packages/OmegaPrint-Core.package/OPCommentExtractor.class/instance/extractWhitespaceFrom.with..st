@@ -1,4 +1,4 @@
-initialize-release
+extraction
 extractWhitespaceFrom: anInterval with: aNode
 
 	^ aNode unformattedSourceCode
