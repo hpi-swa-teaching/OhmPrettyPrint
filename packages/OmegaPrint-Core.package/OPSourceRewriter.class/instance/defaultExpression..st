@@ -1,4 +1,4 @@
-value
+standard attributes
 defaultExpression: aNode
 
 	| isSyntacticRule separator |

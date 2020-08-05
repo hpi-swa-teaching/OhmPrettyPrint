@@ -1,4 +1,4 @@
-cascades
+helpers
 cascadeWith: aReceiver and: cascadedMessages
 
 	| result |

@@ -1,4 +1,4 @@
 *OmegaPrint-Core
-isShowingOmegaPrint
+showingOmegaPrint
 
 	^ contentsSymbol = #omegaPrint
