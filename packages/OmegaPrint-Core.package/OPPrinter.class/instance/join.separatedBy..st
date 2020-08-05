@@ -1,4 +1,4 @@
-collections
+helper
 join: aCollection separatedBy: aString
 
 	| values validValues |

@@ -10,6 +10,7 @@ BlockLiteralNormal: aNode with: aTerminal and: blockArguments and: executableCod
 		join: { blockArguments . executableCode }
 		separatedBy: separator.
 	self decreaseIndentation.
-	result
-		ifEmpty: [ ^ '[]' ]
-		ifNotEmpty: [ ^ '[ ' , result , ' ]' ]
+	^ self
+		include: result
+		between: '['
+		and: ']'
