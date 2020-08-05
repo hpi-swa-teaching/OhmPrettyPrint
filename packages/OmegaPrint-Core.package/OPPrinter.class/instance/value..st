@@ -1,18 +1,11 @@
 value
-value: inputNode
+value: aNode
 
-	| aNode result |
-	inputNode isOhmMatchResult 
-		ifTrue: [ aNode := inputNode cst ]
-		ifFalse: [ aNode := inputNode ].
+	| result isLexicalRule |
 	result := super value: aNode.
-	(result isEmpty or: [ (self isNameOfSyntacticRule: aNode ruleName) not ]) ifTrue: [ ^ result ].
-
-	(self commentMap includes: aNode interval start)
+	isLexicalRule := (self isNameOfSyntacticRule: aNode ruleName) not.
+	(result isEmpty or: [ isLexicalRule ])
 		ifTrue: [ ^ result ]
-		ifFalse: [ | spaces |
-			spaces := self value: aNode skippedSpacesNodes.
-			spaces ifNotEmpty: [ self commentMap add: aNode interval start ].
-			^ self
-				join: { spaces . result }
-				separatedBy: self newline ]
+		ifFalse: [ ^ self
+			valueWithComment: aNode
+			with: result ]

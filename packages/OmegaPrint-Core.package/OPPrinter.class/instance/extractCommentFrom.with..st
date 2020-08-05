@@ -1,11 +1,10 @@
 comments
 extractCommentFrom: anInterval with: aNode
 
-	| string node |
+	| string |
 	string := aNode unformattedSourceCode
 		copyFrom: anInterval start
 		to: anInterval stop.
-	node := (OhmExplicitSendsSmalltalk
+	^ self value: (OhmExplicitSendsSmalltalk
 		match: string
-		startingFrom: #spaces) cst.
-	^ self value: node
+		startingFrom: #spaces) cst
