@@ -2,9 +2,9 @@ helpers
 cascadeWith: aReceiver and: cascadedMessages
 
 	| result |
-	self indentation increase.
+	self increaseIndentation.
 	result := self
 		join: { aReceiver . cascadedMessages }
-		separatedBy: self indentation newline.
-	self indentation decrease.
+		separatedBy: self newline.
+	self decreaseIndentation.
 	^ result
