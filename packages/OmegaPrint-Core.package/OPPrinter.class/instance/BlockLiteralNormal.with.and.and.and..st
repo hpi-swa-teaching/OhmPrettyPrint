@@ -1,14 +1,14 @@
 actions
 BlockLiteralNormal: aNode with: aTerminal and: blockArguments and: executableCode and: anotherTerminal
 
-	| result space |
+	| result separator |
 	self increaseIndentation.
-	space := self
+	separator := self
 		spaceBeforeCode: executableCode
 		and: blockArguments.
 	result := self
 		join: { blockArguments . executableCode }
-		separatedBy: space.
+		separatedBy: separator.
 	self decreaseIndentation.
 	result
 		ifEmpty: [ ^ '[]' ]
