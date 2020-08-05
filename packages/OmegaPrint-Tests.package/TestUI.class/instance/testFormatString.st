@@ -3,12 +3,12 @@ testFormatString
 
 	| result method |
 	method := 'testMethod self test.'.
-	result := OPPrinter
+	result := OPEvaluator
 		evaluate: method
 		startingFrom: #MethodDeclaration.
 	self
 		assert: result
-		equals: (OPPrinter
+		equals: (OPEvaluator
 			format: method
 			in: TestUI
 			notifying: nil)
