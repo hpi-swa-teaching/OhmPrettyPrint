@@ -1,5 +1,5 @@
 helpers
-spaceInBlockWith: resultArguments and: resultVariables and: resultCode
+separatorInBlockWith: resultArguments and: resultVariables and: resultCode
 
 	| lines |
 	lines := resultCode lineCount.

@@ -5,9 +5,12 @@
 		"prettify:startingFrom:shouldEqual:" : "fau 8/5/2020 21:45",
 		"testCascadeWithCommentAfterReceiver" : "PS 7/14/2020 09:41",
 		"testCascadeWithCommentInCascadedMessages" : "PS 7/14/2020 09:42",
-		"testMethodWithCommentAfterMethodHeader" : "fau 8/5/2020 09:14",
-		"testMethodWithCommentAfterStatement" : "PS 7/14/2020 10:03",
+		"testMethodWithCommentAfterCode" : "fau 8/6/2020 13:28",
+		"testMethodWithCommentAfterMethodHeaderWithPragmasWithCode" : "fau 8/6/2020 13:21",
+		"testMethodWithCommentAfterMethodHeaderWithPragmasWithoutCode" : "fau 8/6/2020 13:19",
+		"testMethodWithCommentAfterMethodHeaderWithoutPragmasWithCode" : "fau 8/6/2020 13:20",
+		"testMethodWithCommentAfterMethodHeaderWithoutPragmasWithoutCode" : "fau 8/6/2020 13:22",
 		"testMethodWithCommentBeforeMethodHeader" : "PS 7/14/2020 09:43",
+		"testMethodWithCommentBetweenPragmasAndCode" : "fau 8/6/2020 13:30",
 		"testStatementWithCommentBefore" : "fau 7/24/2020 09:43",
-		"testStatementsWithCommentInBetween" : "fau 7/24/2020 09:44",
-		"testWithCommentAfterMethodHeaderWithStatement" : "fau 7/24/2020 09:36" } }
+		"testStatementsWithCommentInBetween" : "fau 7/24/2020 09:44" } }
