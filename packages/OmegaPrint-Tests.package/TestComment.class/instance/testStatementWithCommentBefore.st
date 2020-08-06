@@ -4,4 +4,4 @@ testStatementWithCommentBefore
 	self
 		prettify: '"comment"statement'
 		startingFrom: #Statement
-		shouldEqual: '"comment"' , String cr , 'statement'
+		shouldEqual: '"comment"' , self lf , 'statement'

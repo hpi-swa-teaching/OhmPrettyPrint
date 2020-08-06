@@ -3,4 +3,4 @@ testWithoutVariablesWithPragmasWithCode
 
 	self
 		prettify: '<pragma>statement.'
-		shouldEqual: '<pragma>' , String cr , 'statement'
+		shouldEqual: '<pragma>' , self lf , 'statement'

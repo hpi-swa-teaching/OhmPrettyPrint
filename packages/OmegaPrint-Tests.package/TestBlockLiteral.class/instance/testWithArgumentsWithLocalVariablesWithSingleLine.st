@@ -3,4 +3,4 @@ testWithArgumentsWithLocalVariablesWithSingleLine
 
 	self
 		prettify: '[:arg||variable|statement.]'
-		shouldEqual: '[ :arg | | variable |' , String cr , String tab , 'statement ]'
+		shouldEqual: '[ :arg | | variable |' , self lfTab , 'statement ]'
