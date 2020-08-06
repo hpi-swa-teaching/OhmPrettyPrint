@@ -7,7 +7,7 @@ BlockLiteralNormal: aNode with: aTerminal and: blockArguments and: executableCod
 	resultCode := self value: executableCode.
 	resultVariables := self value: executableCode firstChild.
 	separator := self
-		spaceInBlockWith: resultArguments
+		separatorInBlockWith: resultArguments
 		and: resultVariables
 		and: resultCode.
 	result := self
