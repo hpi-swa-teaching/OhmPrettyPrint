@@ -1,7 +1,7 @@
 helpers
 separatorAfterHeaderWith: nodes and: results
 
-	(1 to: 2) do: [ :each |
+	(1 to: nodes size) do: [ :each |
 		(results at: each) ifNotEmpty: [
 			(self commentExtractor foundCommentBefore: (nodes at: each))
 				ifTrue: [ ^ self newline ]
