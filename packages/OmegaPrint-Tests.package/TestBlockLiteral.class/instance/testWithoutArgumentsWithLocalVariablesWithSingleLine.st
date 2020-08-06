@@ -3,4 +3,4 @@ testWithoutArgumentsWithLocalVariablesWithSingleLine
 
 	self
 		prettify: '[|variable|statement.]'
-		shouldEqual: '[ | variable |' , String cr , String tab , 'statement ]'
+		shouldEqual: '[ | variable |' , self lfTab , 'statement ]'

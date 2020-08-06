@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"startSymbol" : "TA 7/10/2020 10:50",
-		"testMultipleSegmentsInCascade" : "fau 8/6/2020 14:57",
-		"testWithBinaryMessageSendWithCascadedMessages" : "PK 7/11/2020 14:55",
-		"testWithOperandWithCascadedMessages" : "PK 7/11/2020 14:53",
-		"testWithUnaryMessageSendWithCascadedMessages" : "PK 7/11/2020 14:53" } }
+		"testMultipleSegmentsInCascade" : "fau 8/6/2020 17:02",
+		"testWithBinaryMessageSendWithCascadedMessages" : "fau 8/6/2020 17:03",
+		"testWithOperandWithCascadedMessages" : "fau 8/6/2020 17:03",
+		"testWithUnaryMessageSendWithCascadedMessages" : "fau 8/6/2020 17:03" } }

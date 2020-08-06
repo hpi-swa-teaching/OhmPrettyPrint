@@ -1,0 +1,4 @@
+constants
+lf
+
+	^ String lf

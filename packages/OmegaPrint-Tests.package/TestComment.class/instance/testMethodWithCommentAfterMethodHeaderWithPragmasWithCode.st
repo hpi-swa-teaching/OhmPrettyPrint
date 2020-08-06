@@ -4,4 +4,4 @@ testMethodWithCommentAfterMethodHeaderWithPragmasWithCode
 	self
 		prettify: 'header"comment"<pragmas>statement.'
 		startingFrom: #MethodDeclaration
-		shouldEqual: 'header' , String cr , String tab , '"comment"' , String cr , String tab , '<pragmas>' , String cr , String tab , 'statement'
+		shouldEqual: 'header' , self lfTab , '"comment"' , self lfTab , '<pragmas>' , self lfTab , 'statement'

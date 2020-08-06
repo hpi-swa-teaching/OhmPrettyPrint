@@ -5,5 +5,5 @@ separatorAfterHeaderWith: nodes and: results
 		(results at: each) ifNotEmpty: [
 			(self commentExtractor foundCommentBefore: (nodes at: each))
 				ifTrue: [ ^ self newline ]
-				ifFalse: [ ^ String cr , self newline ] ] ].
+				ifFalse: [ ^ String lf , self newline ] ] ].
 	^ self newline

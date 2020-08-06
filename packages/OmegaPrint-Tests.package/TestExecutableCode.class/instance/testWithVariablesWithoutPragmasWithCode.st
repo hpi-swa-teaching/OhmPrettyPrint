@@ -3,4 +3,4 @@ testWithVariablesWithoutPragmasWithCode
 
 	self
 		prettify: '|variable|statement.'
-		shouldEqual: '| variable |' , String cr , 'statement'
+		shouldEqual: '| variable |' , self lf , 'statement'
