@@ -3,7 +3,7 @@ KeywordMessageSend: aNode with: aKeywordMessageReceiver and: keywordMessageSegme
 
 	| separator result |
 	self increaseIndentation.
-	keywordMessageSegments numberOfChildren < 2
+	keywordMessageSegments numberOfChildren <= 1
 		ifTrue: [ separator := String space ]
 		ifFalse: [ separator := self newline ].
 	self decreaseIndentation.

@@ -10,5 +10,5 @@ testFormatString
 		assert: result
 		equals: (OPPrinter
 			format: method
-			in: TestUI
+			in: self class
 			notifying: nil)
