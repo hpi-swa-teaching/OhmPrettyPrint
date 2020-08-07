@@ -3,6 +3,6 @@
 		 },
 	"instance" : {
 		"startSymbol" : "TA 7/17/2020 09:23",
-		"testWithPragmaKeyWithMultiplePragmaLiteral" : "TA 7/17/2020 09:43",
-		"testWithPragmaKeyWithSinglePragmaLiteral" : "TA 7/17/2020 09:43",
-		"testWithPragmaKeyWithoutPragmaLiteral" : "TA 7/17/2020 09:24" } }
+		"testWithKeyWithMultiplePragmaLiterals" : "fau 8/7/2020 07:44",
+		"testWithKeyWithSinglePragmaLiteral" : "fau 8/7/2020 07:44",
+		"testWithKeyWithoutPragmaLiteral" : "fau 8/7/2020 07:44" } }

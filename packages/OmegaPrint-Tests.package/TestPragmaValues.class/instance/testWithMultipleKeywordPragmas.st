@@ -2,5 +2,5 @@ keyword
 testWithMultipleKeywordPragmas
 
 	self
-		prettify: 'identifier1:pragmaLiteral1 identifier2:pragmaLiteral2'
-		shouldEqual: 'identifier1: pragmaLiteral1' , self lf , 'identifier2: pragmaLiteral2'
+		prettify: 'key1:pragmaLiteral1 key2:pragmaLiteral2'
+		shouldEqual: 'key1: pragmaLiteral1' , self lf , 'key2: pragmaLiteral2'

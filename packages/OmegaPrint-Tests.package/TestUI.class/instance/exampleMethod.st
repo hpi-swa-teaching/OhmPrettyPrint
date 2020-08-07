@@ -1,6 +1,6 @@
 button functionality
 exampleMethod
 
-	| localVariable localVariable2 |
-	localVariable := 1.
-	localVariable2 := 2
+	| variable1 variable2 |
+	variable1 := 1.
+	variable2 := variable1

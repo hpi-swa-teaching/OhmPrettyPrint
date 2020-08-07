@@ -3,6 +3,6 @@
 		 },
 	"instance" : {
 		"startSymbol" : "PS 7/5/2020 18:11",
-		"testWithMultipleVariables" : "PS 7/5/2020 18:12",
-		"testWithVariable" : "fau 7/10/2020 10:38",
-		"testWithoutVariable" : "PS 7/5/2020 18:13" } }
+		"testWithMultipleIdentifiers" : "fau 8/7/2020 07:50",
+		"testWithSingleIdentifier" : "fau 8/7/2020 07:50",
+		"testWithoutIdentifier" : "fau 8/7/2020 07:49" } }
