@@ -2,5 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"prettify:shouldEqual:" : "TA 7/10/2020 10:35",
-		"startSymbol" : "TA 7/3/2020 12:00" } }
+		"lf" : "fau 8/6/2020 17:01",
+		"lfLfTab" : "fau 8/6/2020 17:06",
+		"lfTab" : "fau 8/6/2020 16:54",
+		"lfTabTab" : "fau 8/6/2020 16:55",
+		"prettify:shouldEqual:" : "fau 8/6/2020 17:19",
+		"prettify:startingFrom:shouldEqual:" : "PK 8/7/2020 16:17",
+		"startSymbol" : "TA 7/3/2020 12:00",
+		"tab" : "fau 8/6/2020 17:04" } }

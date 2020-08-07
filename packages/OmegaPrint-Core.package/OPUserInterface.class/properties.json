@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "fau 8/7/2020 09:02",
 	"instvars" : [
 		 ],
 	"name" : "OPUserInterface",
 	"pools" : [
 		 ],
-	"super" : "OhmSmalltalkSourceRewriter",
+	"super" : "Object",
 	"type" : "normal" }

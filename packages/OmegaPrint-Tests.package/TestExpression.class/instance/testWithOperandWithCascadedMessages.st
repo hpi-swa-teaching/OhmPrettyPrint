@@ -3,4 +3,4 @@ testWithOperandWithCascadedMessages
 
 	self
 		prettify: 'receiver message1;message2'
-		shouldEqual: 'receiver' , String cr , String tab , 'message1;' , String cr , String tab , 'message2'
+		shouldEqual: 'receiver' , self lfTab , 'message1;' , self lfTab , 'message2'

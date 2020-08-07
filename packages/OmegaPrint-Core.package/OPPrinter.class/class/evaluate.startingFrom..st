@@ -5,5 +5,5 @@ evaluate: aString startingFrom: aSymbol
 	matchResult := OhmExplicitSendsSmalltalk
 		match: aString
 		startingFrom: aSymbol.
-	evaluator := OhmExplicitSendsSmalltalk synthesizedAttribute: OPPrinter new.
+	evaluator := OhmExplicitSendsSmalltalk synthesizedAttribute: OPSourceRewriter new.
 	^ evaluator value: matchResult cst

@@ -1,0 +1,14 @@
+{
+	"category" : "OmegaPrint-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "PK 8/7/2020 16:53",
+	"instvars" : [
+		"commentMap" ],
+	"name" : "OPCommentExtractor",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

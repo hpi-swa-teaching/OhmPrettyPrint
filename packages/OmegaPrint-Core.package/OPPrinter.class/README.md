@@ -1,0 +1,1 @@
+The OPPrinter offers an interface for the codeHolder with format:in:notifying. It then calls the method evaluate:startingFrom: which creates an OhmMatchResult with the OhmExplicitSendsSmalltalk grammar. The CST of this match result then gets evaluated by OPSourceRewriter in order to prettify the code.

@@ -4,12 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "fau 8/7/2020 09:24",
 	"instvars" : [
-		"indentation",
-		"commentMap" ],
+		 ],
 	"name" : "OPPrinter",
 	"pools" : [
 		 ],
-	"super" : "OhmSourceRewriter",
+	"super" : "Object",
 	"type" : "normal" }

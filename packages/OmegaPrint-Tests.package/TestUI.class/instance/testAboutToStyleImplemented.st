@@ -1,5 +1,6 @@
 message trace
 testAboutToStyleImplemented
+
 	| messageSet |
 	messageSet := MessageSet new.
 	messageSet contentsSymbol: #omegaPrint.

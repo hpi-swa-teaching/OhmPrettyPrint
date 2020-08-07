@@ -1,0 +1,14 @@
+{
+	"category" : "OmegaPrint-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "fau 8/7/2020 09:15",
+	"instvars" : [
+		 ],
+	"name" : "TestKeywordMessage",
+	"pools" : [
+		 ],
+	"super" : "OPTestEvaluator",
+	"type" : "normal" }

@@ -3,6 +3,6 @@
 		 },
 	"instance" : {
 		"startSymbol" : "fau 7/12/2020 20:28",
-		"testWithMultipleIntegerLiterals" : "fau 7/12/2020 20:30",
-		"testWithSingleIntegerLiteral" : "fau 7/12/2020 20:30",
-		"testWithoutIntegerLiteral" : "fau 7/12/2020 20:29" } }
+		"testWithMultipleLiterals" : "fau 8/7/2020 07:20",
+		"testWithSingleLiteral" : "fau 8/7/2020 07:20",
+		"testWithoutLiteral" : "fau 8/7/2020 07:20" } }
