@@ -4,4 +4,6 @@ Also newlines are removed which are a similar problem as comments.
 
 Comments and whitespace get removed by Ohm during parsing. Therefore the methods OhmNode >> skippedSpacesString and OhmNode >> skippedSpacesNodes exist to get the spaces (including comments) ahead of the node. More difficult is the question how to get the spaces at the end of the method.
 
+Also there should be tests for almost every node including comments. Maybe this class then becomes redundant.
+
 For more inspiration how comments could be formatted have a look at the issues in our github project.
