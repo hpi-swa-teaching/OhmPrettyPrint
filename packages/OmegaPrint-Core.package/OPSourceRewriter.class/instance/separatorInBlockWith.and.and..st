@@ -1,10 +1,10 @@
 helpers
 separatorInBlockWith: resultArguments and: resultVariables and: resultCode
 
-	| lines |
-	lines := resultCode lineCount.
-	resultVariables ifNotEmpty: [ lines := lines - 1 ].
-	(lines > 1
+	| lineCountCode |
+	lineCountCode := resultCode lineCount.
+	resultVariables ifNotEmpty: [ lineCountCode := lineCountCode - 1 ].
+	(lineCountCode > 1
 		and: [ resultArguments notEmpty ]
 		and: [ resultVariables isEmpty ])
 		ifTrue: [ ^ self newline ]
