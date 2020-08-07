@@ -2,5 +2,5 @@ keyword
 testWithSingleKeywordPragma
 
 	self
-		prettify: 'identifier:pragmaLiteral'
-		shouldEqual: 'identifier: pragmaLiteral'
+		prettify: 'key:pragmaLiteral'
+		shouldEqual: 'key: pragmaLiteral'

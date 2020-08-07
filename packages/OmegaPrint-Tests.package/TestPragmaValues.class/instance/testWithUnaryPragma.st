@@ -2,5 +2,5 @@ unary
 testWithUnaryPragma
 
 	self
-		prettify: 'identifier'
-		shouldEqual: 'identifier'
+		prettify: 'unaryPragma'
+		shouldEqual: 'unaryPragma'

@@ -3,11 +3,11 @@
 		 },
 	"instance" : {
 		"startSymbol" : "PS 7/5/2020 17:52",
-		"testWithVariablesWithPragmasWithCode" : "fau 8/6/2020 17:02",
-		"testWithVariablesWithPragmasWithoutCode" : "fau 8/6/2020 17:02",
-		"testWithVariablesWithoutPragmasWithCode" : "fau 8/6/2020 17:02",
-		"testWithVariablesWithoutPragmasWithoutCode" : "fau 7/24/2020 10:10",
-		"testWithoutVariablesWithPragmasWithCode" : "fau 8/6/2020 17:02",
-		"testWithoutVariablesWithPragmasWithoutCode" : "fau 7/24/2020 10:10",
-		"testWithoutVariablesWithoutPragmasWithCode" : "fau 7/10/2020 10:29",
-		"testWithoutVariablesWithoutPragmasWithoutCode" : "fau 7/24/2020 10:10" } }
+		"testWithVariableListWithPragmasWithCode" : "fau 8/7/2020 07:23",
+		"testWithVariableListWithPragmasWithoutCode" : "fau 8/7/2020 07:24",
+		"testWithVariableListWithoutPragmasWithCode" : "fau 8/7/2020 07:24",
+		"testWithVariableListWithoutPragmasWithoutCode" : "fau 8/7/2020 07:24",
+		"testWithoutVariableListWithPragmasWithCode" : "fau 8/7/2020 07:24",
+		"testWithoutVariableListWithPragmasWithoutCode" : "fau 8/7/2020 07:24",
+		"testWithoutVariableListWithoutPragmasWithCode" : "fau 8/7/2020 07:25",
+		"testWithoutVariableListWithoutPragmasWithoutCode" : "fau 8/7/2020 07:25" } }
