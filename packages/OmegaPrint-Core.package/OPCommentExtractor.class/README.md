@@ -4,6 +4,6 @@ commentNodesBefore: uses the method skippedSpacesNodes of OhmNode to return the 
 
 
 commentMap
-	- a Bag of Integers
+	- A Bag of Integers
 	- It stores the start of the intervals for which the OPCommentExtractor already extracted a valid comment.
 	- Using this, the same comment cannot be extracted twice.
