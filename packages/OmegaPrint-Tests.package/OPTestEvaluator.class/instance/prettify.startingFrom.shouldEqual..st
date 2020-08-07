@@ -1,5 +1,5 @@
 testing
-prettify: aString  startingFrom: aSymbol shouldEqual: anotherString
+prettify: aString startingFrom: aSymbol shouldEqual: anotherString
 
 	| result |
 	result := OPPrinter 
