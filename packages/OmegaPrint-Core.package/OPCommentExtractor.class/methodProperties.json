@@ -7,9 +7,10 @@
 		"commentMap:" : "fau 8/5/2020 14:05",
 		"commentNodesAfterMethod:" : "fau 8/5/2020 22:16",
 		"commentNodesAfterSourceMap:" : "fau 8/5/2020 22:15",
-		"commentNodesAtEndOfSourceMap:" : "fau 8/6/2020 17:56",
+		"commentNodesAtEndOfSourceMap:" : "TA 8/7/2020 15:07",
 		"commentNodesBefore:" : "fau 8/5/2020 22:14",
 		"extractCommentNodesFrom:with:" : "fau 8/5/2020 22:13",
 		"extractWhitespaceFrom:with:" : "fau 8/5/2020 14:49",
+		"findCommentInterval:" : "TA 8/7/2020 15:11",
 		"foundCommentBefore:" : "fau 8/6/2020 10:45",
 		"initialize" : "fau 8/5/2020 14:06" } }

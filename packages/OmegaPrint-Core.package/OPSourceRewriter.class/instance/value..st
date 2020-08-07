@@ -7,5 +7,5 @@ value: aNode
 	(result isEmpty or: [ isLexicalRule ])
 		ifTrue: [ ^ result ]
 		ifFalse: [ ^ self
-			join: (self commentExtractor commentNodesBefore: aNode) , { result }
-			separatedBy: self newline ]
+				join: (self commentExtractor commentNodesBefore: aNode) , { result }
+				separatedBy: self newline ]
